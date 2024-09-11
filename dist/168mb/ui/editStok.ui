@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>333</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tambah Data Katalog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../data/ui/logo.qrc">
+    <normaloff>:/newPrefix/logo.png</normaloff>:/newPrefix/logo.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>261</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Katalog</string>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Satuan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Spesifikasi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="spesifikasi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>113</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : 100</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nama_barang">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>141</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : Beaker</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="satuan_spesifikasi">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>140</y>
+      <width>91</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : pcs, unit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Nama Barang</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Kode Barang</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="apply">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>330</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {color:white; background-color:rgb(168, 168, 168);border:0px;font: 13px &quot;Open Sans&quot;;
+border-radius: 7px;
+
+padding: 0 8px;}
+
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Tambah Data</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="keterangan">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>131</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : Dari Medan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Keterangan Barang</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="kodebarang">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>141</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {border: 2px solid gray;
+border-radius:6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray; }
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid; /* just a single line */
+  	border-top-right-radius: 6px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 6px;
+}
+
+QComboBox::down-arrow {
+	image: url(:/newPrefix/drop-down-arrow.png);
+	width: 13px;
+    height: 13px;
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+
+QComboBox QAbstractItemView {
+    border: 3px solid darkgray;
+    selection-background-color: gray;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="id_stok">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>41</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : GRA.1000.01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Jumlah</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Satuan</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="jumlah">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>113</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Cth : 100</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="lokasi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>141</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {border: 2px solid gray;
+border-radius:6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray; }
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid; /* just a single line */
+  	border-top-right-radius: 6px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 6px;
+}
+
+QComboBox::down-arrow {
+	image: url(:/newPrefix/drop-down-arrow.png);
+	width: 13px;
+    height: 13px;
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+
+QComboBox QAbstractItemView {
+    border: 3px solid darkgray;
+    selection-background-color: gray;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {color:black;border:0px;font: 13px &quot;Open Sans&quot;;
+padding: 0 8px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Lokasi</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="satuan_jumlah">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>91</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {border: 2px solid gray;
+border-radius:6px;
+padding: 0 8px;
+min-height: 15px ;
+max-height:15px;
+selection-background-color: darkgray; }
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid; /* just a single line */
+  	border-top-right-radius: 6px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 6px;
+}
+
+QComboBox::down-arrow {
+	image: url(:/newPrefix/drop-down-arrow.png);
+	width: 13px;
+    height: 13px;
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+
+QComboBox QAbstractItemView {
+    border: 3px solid darkgray;
+    selection-background-color: gray;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>kodebarang</tabstop>
+  <tabstop>jumlah</tabstop>
+  <tabstop>satuan_jumlah</tabstop>
+  <tabstop>lokasi</tabstop>
+  <tabstop>keterangan</tabstop>
+  <tabstop>apply</tabstop>
+  <tabstop>id_stok</tabstop>
+  <tabstop>nama_barang</tabstop>
+  <tabstop>spesifikasi</tabstop>
+  <tabstop>satuan_spesifikasi</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../data/ui/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

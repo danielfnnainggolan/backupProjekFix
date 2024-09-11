@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>drop-down-arrow.png</file>
+    <file>logo.png</file>
+    <file>book-open.svg</file>
+  </qresource>
+  <qresource prefix="menu">
+    <file>clipboard.svg</file>
+    <file>package.svg</file>
+    <file>hambmenu.png</file>
+  </qresource>
+</RCC>

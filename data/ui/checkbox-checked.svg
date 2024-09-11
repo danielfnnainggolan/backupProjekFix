@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="18.837292"
+   height="20.827044"
+   viewBox="0 0 0.56511875 0.62481131"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="checkbox-checked.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16"
+     inkscape:cx="5.78125"
+     inkscape:cy="10.84375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="Interface / Checkbox_Check"
+     transform="matrix(0.03138731,0,0,0.0347027,-0.09408831,-0.1040267)">
+    <path
+       id="Vector"
+       d="m 8,12 3,3 5,-6 M 4,16.8002 v -9.6 C 4,6.08009 4,5.51962 4.21799,5.0918 4.40973,4.71547 4.71547,4.40973 5.0918,4.21799 5.51962,4 6.08009,4 7.2002,4 h 9.6 c 1.1201,0 1.6794,0 2.1072,0.21799 0.3763,0.19174 0.6831,0.49748 0.8748,0.87381 C 20,5.5192 20,6.07899 20,7.19691 v 9.60669 c 0,1.1179 0,1.6769 -0.2178,2.1043 -0.1917,0.3763 -0.4985,0.6826 -0.8748,0.8743 C 18.48,20 17.921,20 16.8031,20 H 7.19691 C 6.07899,20 5.5192,20 5.0918,19.7822 4.71547,19.5905 4.40973,19.2842 4.21799,18.9079 4,18.4801 4,17.9203 4,16.8002 Z"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round" />
+  </g>
+</svg>

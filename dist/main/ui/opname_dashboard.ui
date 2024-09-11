@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>885</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Opname Dashboard</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../data/ui/logo.qrc">
+    <normaloff>:/newPrefix/logo.png</normaloff>:/newPrefix/logo.png</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QFrame" name="sidebar">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background-color:#222725;
+border-right:1px solid white;
+
+
+}</string>
+        </property>
+        <widget class="QPushButton" name="reportBtn">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>61</y>
+           <width>149</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {border-top:0px solid;
+border-bottom:1px solid;
+
+border-color:white;
+padding-left: 34 8px;
+
+color:rgb(255, 255, 255);
+}
+
+QPushButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QPushButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QPushButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Laporan Stok</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/newPrefix/book.svg</normaloff>:/newPrefix/book.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="autoRepeat">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QToolButton" name="stokBtn1">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>12</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
+
+
+padding-left: 7  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/stock-svgrepo-com.svg</normaloff>../data/ui/stock-svgrepo-com.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="stokBtn">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>2</y>
+           <width>149</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {border-top:0px solid;
+border-bottom:1px solid;
+
+border-color:white;
+padding-left: -20 8px;
+
+color:rgb(255, 255, 255);
+}
+
+QPushButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QPushButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QPushButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Stok</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/newPrefix/book.svg</normaloff>:/newPrefix/book.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="autoRepeat">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QToolButton" name="reportBtn1">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>70</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
+
+
+padding-left: 7  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/report-text-svgrepo-com.svg</normaloff>../data/ui/report-text-svgrepo-com.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QToolButton" name="exit1">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>262</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
+
+
+padding-left: 5  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Keluar</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/power.svg</normaloff>../data/ui/power.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QToolButton" name="beranda1">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>202</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
+
+
+padding-left: 5  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Keluar</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/home.svg</normaloff>../data/ui/home.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="exit">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>250</y>
+           <width>150</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {background-color:#222725;
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:white;
+
+
+color:rgb(255, 255, 255);
+
+padding-right: -6  8px;}
+
+
+QPushButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QPushButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QPushButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+</string>
+         </property>
+         <property name="text">
+          <string>Keluar</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="beranda">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>193</y>
+           <width>150</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {background-color:#222725;
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:white;
+
+
+color:rgb(255, 255, 255);
+
+padding-right: 5 8px;}
+
+
+QPushButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QPushButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QPushButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+</string>
+         </property>
+         <property name="text">
+          <string>Beranda</string>
+         </property>
+        </widget>
+        <zorder>exit</zorder>
+        <zorder>beranda</zorder>
+        <zorder>reportBtn</zorder>
+        <zorder>stokBtn</zorder>
+        <zorder>reportBtn1</zorder>
+        <zorder>stokBtn1</zorder>
+        <zorder>exit1</zorder>
+        <zorder>beranda1</zorder>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QFrame" name="frame_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{background-color:#222725; border-bottom:2px solid white}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QToolButton" name="ham_menu">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
+
+
+padding-right: 0  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/menu.svg</normaloff>../data/ui/menu.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>80</width>
+           <height>80</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QStackedWidget {
+
+background-color:#e8e4e3
+
+}</string>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../data/ui/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

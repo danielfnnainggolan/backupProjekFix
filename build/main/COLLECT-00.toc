@@ -1,0 +1,3563 @@
+([('KGA Katalog.exe',
+   'F:\\Project Katalog Venv\\myenv\\build\\main\\KGA Katalog.exe',
+   'EXECUTABLE'),
+  ('python312.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\python312.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtCore.pyd',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\PyQt5\\QtCore.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PyQt5\\sip.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\sip.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtGui.pyd',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\PyQt5\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtWidgets.pyd',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\hashing.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\hashing.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\nattype.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\nattype.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\groupby.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\groupby.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\hashtable.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\hashtable.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\ops_dispatch.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\ops_dispatch.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\arrays.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\arrays.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\parsers.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\parsers.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\index.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\index.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\properties.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\properties.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\writers.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\writers.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timezones.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timezones.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\json.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\json.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\window\\indexers.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\window\\indexers.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\window\\aggregations.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\window\\aggregations.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\internals.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\internals.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\tzconversion.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\tzconversion.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslib.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslib.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\ops.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\ops.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\conversion.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\conversion.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timedeltas.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timedeltas.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\strptime.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\strptime.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\indexing.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\indexing.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\interval.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\interval.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\period.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\period.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\missing.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\missing.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\timestamps.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\timestamps.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\np_datetime.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\np_datetime.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\parsing.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\parsing.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\offsets.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\offsets.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\fields.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\fields.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\dtypes.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\dtypes.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\ccalendar.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\ccalendar.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\algos.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\algos.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\lib.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\lib.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\sparse.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\sparse.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\reshape.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\reshape.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\join.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\join.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\vectorized.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\vectorized.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\pandas_datetime.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\pandas_datetime.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\pandas_parser.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\pandas_parser.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\testing.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\testing.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\mtrand.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_sfc64.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_philox.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_pcg64.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_mt19937.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\bit_generator.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_generator.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\random\\_common.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('rpds\\rpds.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\rpds\\rpds.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\tslibs\\base.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\base.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\sas.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\sas.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas\\_libs\\byteswap.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\_libs\\byteswap.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_mysql_connector.cp312-win_amd64.pyd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\_mysql_connector.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\python3.dll',
+   'BINARY'),
+  ('pandas.libs\\msvcp140-ef6047a69b174ada5cb2eff1d2bc9a62.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas.libs\\msvcp140-ef6047a69b174ada5cb2eff1d2bc9a62.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll',
+   'BINARY'),
+  ('libmysql.dll',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\libmysql.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'BINARY'),
+  ('libssl-3-x64.dll',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\libssl-3-x64.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\libcrypto-3-x64.dll',
+   'BINARY'),
+  ('MyWidgets.py', 'F:\\Project Katalog Venv\\myenv\\MyWidgets.py', 'DATA'),
+  ('config.ini', 'F:\\Project Katalog Venv\\myenv\\config.ini', 'DATA'),
+  ('data\\font\\OpenSans-Regular.ttf',
+   'F:\\Project Katalog Venv\\myenv\\data\\font\\OpenSans-Regular.ttf',
+   'DATA'),
+  ('data\\font\\opensans.qrc',
+   'F:\\Project Katalog Venv\\myenv\\data\\font\\opensans.qrc',
+   'DATA'),
+  ('data\\ui\\Backup_of_branch-more2.cdr',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\Backup_of_branch-more2.cdr',
+   'DATA'),
+  ('data\\ui\\archive-svgrepo-com.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\archive-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\book-open.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\book-open.svg',
+   'DATA'),
+  ('data\\ui\\branch-closed.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-closed.png',
+   'DATA'),
+  ('data\\ui\\branch-closed.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-closed.svg',
+   'DATA'),
+  ('data\\ui\\branch-end.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-end.png',
+   'DATA'),
+  ('data\\ui\\branch-end.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-end.svg',
+   'DATA'),
+  ('data\\ui\\branch-more.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-more.png',
+   'DATA'),
+  ('data\\ui\\branch-more.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-more.svg',
+   'DATA'),
+  ('data\\ui\\branch-more2.cdr',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-more2.cdr',
+   'DATA'),
+  ('data\\ui\\branch-more2.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-more2.svg',
+   'DATA'),
+  ('data\\ui\\branch-opened.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-opened.png',
+   'DATA'),
+  ('data\\ui\\branch-opened.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\branch-opened.svg',
+   'DATA'),
+  ('data\\ui\\checkbox-checked-hover.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\checkbox-checked-hover.svg',
+   'DATA'),
+  ('data\\ui\\checkbox-checked.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\checkbox-checked.svg',
+   'DATA'),
+  ('data\\ui\\checkbox-unchecked-hover.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\checkbox-unchecked-hover.svg',
+   'DATA'),
+  ('data\\ui\\checkbox-unchecked-svgrepo-com.svg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\data\\ui\\checkbox-unchecked-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\clipboard.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\clipboard.svg',
+   'DATA'),
+  ('data\\ui\\drop-down-arrow.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\drop-down-arrow.png',
+   'DATA'),
+  ('data\\ui\\hambmenu.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\hambmenu.png',
+   'DATA'),
+  ('data\\ui\\home.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\home.svg',
+   'DATA'),
+  ('data\\ui\\inventory.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\inventory.svg',
+   'DATA'),
+  ('data\\ui\\keyboard-capslock-svgrepo-com.svg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\data\\ui\\keyboard-capslock-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\logo.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\logo.png',
+   'DATA'),
+  ('data\\ui\\logo.qrc',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\logo.qrc',
+   'DATA'),
+  ('data\\ui\\measurement-tape-svgrepo-com.svg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\data\\ui\\measurement-tape-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\menu.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\menu.svg',
+   'DATA'),
+  ('data\\ui\\minus-circle-svgrepo-com.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\minus-circle-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\package.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\package.svg',
+   'DATA'),
+  ('data\\ui\\plus-circle-svgrepo-com.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\plus-circle-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\power.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\power.svg',
+   'DATA'),
+  ('data\\ui\\pyrcc5 -o resources.py logo.qrc',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\pyrcc5 -o resources.py logo.qrc',
+   'DATA'),
+  ('data\\ui\\report-text-svgrepo-com.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\report-text-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\stock-svgrepo-com.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\stock-svgrepo-com.svg',
+   'DATA'),
+  ('data\\ui\\stylesheet-branch-end.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\stylesheet-branch-end.png',
+   'DATA'),
+  ('data\\ui\\stylesheet-branch-more.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\stylesheet-branch-more.png',
+   'DATA'),
+  ('data\\ui\\stylesheet-vline.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\stylesheet-vline.png',
+   'DATA'),
+  ('data\\ui\\vline.png',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\vline.png',
+   'DATA'),
+  ('data\\ui\\vline.svg',
+   'F:\\Project Katalog Venv\\myenv\\data\\ui\\vline.svg',
+   'DATA'),
+  ('data\\uploads\\GRA.1800.36.jpg',
+   'F:\\Project Katalog Venv\\myenv\\data\\uploads\\GRA.1800.36.jpg',
+   'DATA'),
+  ('data\\uploads\\NR1301102.jpg',
+   'F:\\Project Katalog Venv\\myenv\\data\\uploads\\NR1301102.jpg',
+   'DATA'),
+  ('logo.ico', 'F:\\Project Katalog Venv\\myenv\\logo.ico', 'DATA'),
+  ('ui\\add - Copy.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\add - Copy.ui',
+   'DATA'),
+  ('ui\\add.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\add.ui', 'DATA'),
+  ('ui\\addSingle.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\addSingle.ui',
+   'DATA'),
+  ('ui\\addStok.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\addStok.ui', 'DATA'),
+  ('ui\\dashboard.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\dashboard.ui',
+   'DATA'),
+  ('ui\\edit.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\edit.ui', 'DATA'),
+  ('ui\\editSingle.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\editSingle.ui',
+   'DATA'),
+  ('ui\\editStok.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\editStok.ui',
+   'DATA'),
+  ('ui\\katalog.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\katalog.ui', 'DATA'),
+  ('ui\\katalog_dashboard.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\katalog_dashboard.ui',
+   'DATA'),
+  ('ui\\laporanstok.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\laporanstok.ui',
+   'DATA'),
+  ('ui\\login.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\login.ui', 'DATA'),
+  ('ui\\lokasi.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\lokasi.ui', 'DATA'),
+  ('ui\\merek.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\merek.ui', 'DATA'),
+  ('ui\\opname_dashboard.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\opname_dashboard.ui',
+   'DATA'),
+  ('ui\\removeStok.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\removeStok.ui',
+   'DATA'),
+  ('ui\\satuanbarang.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\satuanbarang.ui',
+   'DATA'),
+  ('ui\\satuanjumlah.ui',
+   'F:\\Project Katalog Venv\\myenv\\ui\\satuanjumlah.ui',
+   'DATA'),
+  ('ui\\stok.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\stok.ui', 'DATA'),
+  ('ui\\test.ui', 'F:\\Project Katalog Venv\\myenv\\ui\\test.ui', 'DATA'),
+  ('base_library.zip',
+   'F:\\Project Katalog Venv\\myenv\\build\\main\\base_library.zip',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_da.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_de.qm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Maceio',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Maceio',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guatemala',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guatemala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmera',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bangkok',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bangkok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kiev',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kiev',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Midway',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Midway',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pontianak',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pontianak',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bissau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bissau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yerevan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yerevan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Monrovia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Monrovia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mendoza',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mendoza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Universal',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Apia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Apia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Honolulu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Honolulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Recife',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Recife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sofia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sofia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cuiaba',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cuiaba',
+   'DATA'),
+  ('pytz\\zoneinfo\\UCT',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Ponape',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Ponape',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Lucia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Lucia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Majuro',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Majuro',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Scoresbysund',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Scoresbysund',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Istanbul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aden',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aden',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hovd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hovd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kigali',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kigali',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tahiti',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tahiti',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bamako',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bamako',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\El_Salvador',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\El_Salvador',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Nauru',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Nauru',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tijuana',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tijuana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Volgograd',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Volgograd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Christmas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Christmas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nipigon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nipigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Detroit',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Detroit',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guyana',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guyana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Portugal',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Portugal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuwait',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuwait',
+   'DATA'),
+  ('pytz\\zoneinfo\\Navajo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Navajo',
+   'DATA'),
+  ('pytz\\zoneinfo\\zonenow.tab',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\zonenow.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Lisbon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Lisbon',
+   'DATA'),
+  ('pytz\\zoneinfo\\WET',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\WET',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Glace_Bay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Glace_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belgrade',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belgrade',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Damascus',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Damascus',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Chagos',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Chagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-10',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-10',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Louisville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macao',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macao',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\General',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\General',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lagos',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Warsaw',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Warsaw',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-7',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-7',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guadeloupe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guadeloupe',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\EST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Catamarca',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Palau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Palau',
+   'DATA'),
+  ('pytz\\zoneinfo\\PST8PDT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\PST8PDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone1970.tab',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\zone1970.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Martinique',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Martinique',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Simferopol',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Simferopol',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qatar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Djibouti',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Djibouti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santa_Isabel',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santa_Isabel',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Creston',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Creston',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Samoa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grand_Turk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grand_Turk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Magadan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Magadan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Managua',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Managua',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dubai',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dubai',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Hermosillo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Hermosillo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Oral',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Oral',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Guernsey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Guernsey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Barnaul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Barnaul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Virgin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Virgin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jerusalem',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jerusalem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-4',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-4',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dakar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dakar',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Marigot',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Marigot',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Regina',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Regina',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kathmandu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kathmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Troll',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Troll',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Famagusta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Famagusta',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Amsterdam',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Amsterdam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maputo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maputo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Palmer',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Palmer',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Katmandu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Katmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Pacific',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Barbados',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Barbados',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Manila',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Manila',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Caracas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Caracas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Kwajalein',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Dublin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Dublin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashgabat',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashgabat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tokyo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tokyo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Samarkand',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Samarkand',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Easter',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Easter',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Budapest',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Budapest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Skopje',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Skopje',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Niue',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Niue',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Hawaii',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Hawaii',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Saigon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Saigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Victoria',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Victoria',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vientiane',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vientiane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chungking',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chungking',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qostanay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qostanay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rosario',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rosario',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\West',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Canberra',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Canberra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Harare',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Harare',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lindeman',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lindeman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Prague',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Prague',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Michigan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Michigan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Menominee',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Menominee',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santarem',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santarem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Johannesburg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Johannesburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boise',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boise',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Nicosia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Urumqi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Urumqi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jayapura',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jayapura',
+   'DATA'),
+  ('pytz\\zoneinfo\\Poland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Poland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tallinn',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tallinn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nairobi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nairobi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tunis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tunis',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Inuvik',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Inuvik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Eastern',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-5',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-5',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Aleutian',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Aleutian',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tashkent',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tashkent',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Havana',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Havana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tbilisi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tbilisi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Hobart',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Hobart',
+   'DATA'),
+  ('pytz\\zoneinfo\\Cuba',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Cuba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Casablanca',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Casablanca',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Eirunepe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Eirunepe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Acre',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Colombo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Colombo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Taipei',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Taipei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mahe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mahe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Araguaina',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Araguaina',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Buenos_Aires',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fiji',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fiji',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Freetown',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Freetown',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Newfoundland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Newfoundland',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROK',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\ROK',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mazatlan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mazatlan',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROC',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\ROC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+7',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+7',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Berlin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Berlin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Minsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Minsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kamchatka',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kamchatka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Vostok',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Vostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\ACT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\ACT',
+   'DATA'),
+  ('pytz\\zoneinfo\\PRC',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\PRC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Jamaica',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vatican',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vatican',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UTC',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Podgorica',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Podgorica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guam',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guam',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Noronha',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Noronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Samara',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Samara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dili',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dili',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Wayne',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Wayne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Zulu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Chisinau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Chisinau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Adak',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Adak',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ceuta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ceuta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kolkata',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kolkata',
+   'DATA'),
+  ('pytz\\zoneinfo\\CET',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\CET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Brunei',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Brunei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belfast',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belfast',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\South',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\South',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Vincent',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Vincent',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Gibraltar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Gibraltar',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone.tab',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\zone.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+3',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+3',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vienna',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vienna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\London',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\London',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ensenada',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ensenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Canary',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Canary',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Japan',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Japan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Juba',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Juba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Khartoum',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Khartoum',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuching',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuching',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Velho',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Velho',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\Acre',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Casey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Casey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bujumbura',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bujumbura',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Harbin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Harbin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vladivostok',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vladivostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Indiana-Starke',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Indiana-Starke',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Enderbury',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Enderbury',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Mawson',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Mawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bahrain',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bahrain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Amman',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Amman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+8',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+8',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Omsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Omsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zagreb',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zagreb',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Matamoros',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Matamoros',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hebron',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hebron',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+11',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+11',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Copenhagen',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Copenhagen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Riyadh',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Riyadh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lusaka',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lusaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Pacific',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-9',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-9',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Thomas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Thomas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Goose_Bay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Goose_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Godthab',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Godthab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mogadishu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mogadishu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\West',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\EasterIsland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\EasterIsland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Los_Angeles',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Los_Angeles',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-1',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-1',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Maldives',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Maldives',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Paris',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Paris',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nouakchott',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nouakchott',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Aruba',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Aruba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-11',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-11',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ-CHAT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ-CHAT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ndjamena',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ndjamena',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-12',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-12',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ljubljana',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ljubljana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yangon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yangon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaSur',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaSur',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vaduz',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vaduz',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+2',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Madrid',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Madrid',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yellowknife',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yellowknife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Egypt',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Egypt',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT0',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fortaleza',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fortaleza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mauritius',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mauritius',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guayaquil',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guayaquil',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Mountain',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Anadyr',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Anadyr',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Abidjan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Abidjan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Calcutta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Calcutta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tarawa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tarawa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Funafuti',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Funafuti',
+   'DATA'),
+  ('pytz\\zoneinfo\\tzdata.zi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\tzdata.zi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nuuk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Oslo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Oslo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Yukon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Yukon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Coral_Harbour',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Coral_Harbour',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belem',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belem',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boa_Vista',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boa_Vista',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Syowa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Syowa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kashgar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kashgar',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jamaica',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Conakry',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Conakry',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Mariehamn',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Mariehamn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sarajevo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sarajevo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+12',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+12',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Merida',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Merida',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Stockholm',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Stockholm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-0',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Darwin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Darwin',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Halifax',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Halifax',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-6',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-6',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Punta_Arenas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Punta_Arenas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zurich',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zurich',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayenne',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayenne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mayotte',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mayotte',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anchorage',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anchorage',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\NSW',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\NSW',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayman',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayman',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\Israel',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Israel',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Monaco',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Monaco',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wallis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wallis',
+   'DATA'),
+  ('pytz\\zoneinfo\\HST',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\HST',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Resolute',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Resolute',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baku',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baku',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Queensland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Queensland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson_Creek',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson_Creek',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santiago',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santiago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Istanbul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sitka',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sitka',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yakutat',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yakutat',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Monterrey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Monterrey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chita',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chita',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UCT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Curacao',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Curacao',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Atlantic',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Atlantic',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tegucigalpa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tegucigalpa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+0',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GB',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Athens',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Athens',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Shanghai',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Shanghai',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tehran',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tehran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Shiprock',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Shiprock',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Paramaribo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Paramaribo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iran',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Iran',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\MST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Muscat',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Muscat',
+   'DATA'),
+  ('pytz\\zoneinfo\\EET',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\EET',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nassau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nassau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bishkek',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bishkek',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Arizona',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Arizona',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Kerguelen',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Kerguelen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Douala',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Douala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-13',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-13',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Brazzaville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Brazzaville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Jersey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Jersey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Busingen',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Busingen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-3',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-3',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+6',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Central',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atka',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-8',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-8',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Moscow',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Moscow',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kralendijk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kralendijk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Astrakhan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Astrakhan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Sydney',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Sydney',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thule',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thule',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kinshasa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kinshasa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Saipan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Saipan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Winnipeg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Winnipeg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maseru',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maseru',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vilnius',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vilnius',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Manaus',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Manaus',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Comoro',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Comoro',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Swift_Current',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Swift_Current',
+   'DATA'),
+  ('pytz\\zoneinfo\\Eire',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Costa_Rica',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Costa_Rica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indianapolis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montreal',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montreal',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Mountain',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bangui',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bangui',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT0',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belize',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belize',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thunder_Bay',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thunder_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST5EDT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\EST5EDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Pangnirtung',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Pangnirtung',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cordoba',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Brisbane',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Brisbane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Turkey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Turkey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Yap',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Yap',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Miquelon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Miquelon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ojinaga',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ojinaga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Singapore',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Eastern',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\La_Paz',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\La_Paz',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Campo_Grande',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Campo_Grande',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wake',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wake',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Brussels',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Brussels',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Makassar',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Makassar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtobe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtobe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montevideo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montevideo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Nelson',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Nelson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Seoul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Seoul',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT-0',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kosrae',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kosrae',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nome',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nome',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rio_Branco',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rio_Branco',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Andorra',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Andorra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Luxembourg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Luxembourg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tomsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tomsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yakutsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yakutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Helsinki',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Helsinki',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Asuncion',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Asuncion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\LHI',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\LHI',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB-Eire',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GB-Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+1',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+1',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Truk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Truk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Saratov',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Saratov',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kirov',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kirov',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+4',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+4',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Irkutsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Irkutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Johns',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Johns',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bogota',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bogota',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Galapagos',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Galapagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jujuy',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Adelaide',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Adelaide',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chongqing',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chongqing',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mbabane',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mbabane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tirane',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tirane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Currie',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Currie',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Almaty',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Almaty',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\North',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\North',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Niamey',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Niamey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montserrat',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montserrat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Banjul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Banjul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Whitehorse',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Whitehorse',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'DATA'),
+  ('pytz\\zoneinfo\\CST6CDT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\CST6CDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Stanley',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Stanley',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lower_Princes',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lower_Princes',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Accra',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Accra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Gaza',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Gaza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Davis',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Davis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Madeira',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Madeira',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimbu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimbu',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Samoa',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Choibalsan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Choibalsan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Khandyga',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Khandyga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Sakhalin',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Sakhalin',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Toronto',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Toronto',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Gambier',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Gambier',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port_of_Spain',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port_of_Spain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimphu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimphu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Antananarivo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Antananarivo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Greenwich',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Luanda',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Luanda',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dominica',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dominica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Barthelemy',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Barthelemy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jakarta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jakarta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faroe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Karachi',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Karachi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Juneau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Juneau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lima',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lima',
+   'DATA'),
+  ('pytz\\zoneinfo\\Zulu',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\leapseconds',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\leapseconds',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Noumea',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Noumea',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Auckland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Auckland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Reunion',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Reunion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Malta',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Malta',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Antigua',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Antigua',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\East-Indiana',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\East-Indiana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baghdad',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baghdad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Metlakatla',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Metlakatla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Blantyre',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Blantyre',
+   'DATA'),
+  ('pytz\\zoneinfo\\iso3166.tab',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\iso3166.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Moncton',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Moncton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\East',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\East',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Algiers',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Algiers',
+   'DATA'),
+  ('pytz\\zoneinfo\\Singapore',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\MET',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\MET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Greenwich',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tortola',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tortola',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atikokan',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atikokan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grenada',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santo_Domingo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santo_Domingo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Kitts',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Kitts',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+9',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+9',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Marquesas',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Marquesas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Libreville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Libreville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bucharest',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bucharest',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Danmarkshavn',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Danmarkshavn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\San_Marino',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\San_Marino',
+   'DATA'),
+  ('pytz\\zoneinfo\\UTC',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kampala',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kampala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Tasmania',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Tasmania',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+10',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+10',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Rangoon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Rangoon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sao_Paulo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sao_Paulo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tiraspol',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tiraspol',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Edmonton',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Edmonton',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mexico_City',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mexico_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anguilla',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anguilla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Timbuktu',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Timbuktu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kabul',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kabul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Panama',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Panama',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Gaborone',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Gaborone',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Efate',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Efate',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Alaska',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Alaska',
+   'DATA'),
+  ('pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT+0',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+5',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+5',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Windhoek',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Windhoek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Hongkong',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Hongkong',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\Continental',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\Continental',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kanton',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kanton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chuuk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iceland',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Iceland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Phoenix',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Phoenix',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Denver',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Denver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Melbourne',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Melbourne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Nicosia',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chicago',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chicago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Beirut',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Beirut',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Yancowinna',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Yancowinna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chihuahua',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chihuahua',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-14',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-14',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Eucla',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Eucla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dacca',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dacca',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rainy_River',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rainy_River',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kyiv',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kyiv',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Perth',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Perth',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Norfolk',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Norfolk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Malabo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Malabo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-2',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Libya',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Libya',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port-au-Prince',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port-au-Prince',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Knox_IN',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Knox_IN',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Azores',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Azores',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST7MDT',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\MST7MDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Factory',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Factory',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cancun',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cancun',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Universal',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pyongyang',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pyongyang',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Cairo',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Cairo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmara',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Rothera',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Rothera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Bougainville',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Bougainville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tripoli',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tripoli',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dhaka',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dhaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Central',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Rome',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Rome',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Vancouver',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Vancouver',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\New_York',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\New_York',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Cocos',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Cocos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chatham',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chatham',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Atyrau',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Atyrau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Riga',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Riga',
+   'DATA'),
+  ('pytz\\zoneinfo\\W-SU',
+   'F:\\Project Katalog Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\W-SU',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dushanbe',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dushanbe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Puerto_Rico',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Puerto_Rico',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Johnston',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Johnston',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lome',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bratislava',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bratislava',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Iqaluit',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Iqaluit',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex_longtable.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_longtable.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_style.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_style.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex_table.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_table.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_table.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_table.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\string.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\string.tpl',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex.tpl',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex.tpl',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\RECORD',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\RECORD',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\METADATA',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\METADATA',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\WHEEL',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\WHEEL',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\INSTALLER',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\licenses\\COPYING',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\licenses\\COPYING',
+   'DATA'),
+  ('jsonschema\\benchmarks\\issue232\\issue.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema\\benchmarks\\issue232\\issue.json',
+   'DATA'),
+  ('jsonschema-4.22.0.dist-info\\entry_points.txt',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema-4.22.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft4\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft4\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft7\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft7\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft3\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft3\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\meta-data',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\meta-data',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\applicator',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\applicator',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\validation',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\validation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\core',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\core',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\core',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\core',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\validation',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\validation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\content',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\content',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-assertion',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-assertion',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\content',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\content',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-annotation',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-annotation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\unevaluated',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\unevaluated',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\applicator',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\applicator',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft6\\metaschema.json',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft6\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\meta-data',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\meta-data',
+   'DATA'),
+  ('attrs-23.2.0.dist-info\\RECORD',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\attrs-23.2.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-23.2.0.dist-info\\licenses\\LICENSE',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\attrs-23.2.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('attrs-23.2.0.dist-info\\WHEEL',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\attrs-23.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-23.2.0.dist-info\\METADATA',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\attrs-23.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-23.2.0.dist-info\\INSTALLER',
+   'F:\\Project Katalog '
+   'Venv\\myenv\\Lib\\site-packages\\attrs-23.2.0.dist-info\\INSTALLER',
+   'DATA')],)

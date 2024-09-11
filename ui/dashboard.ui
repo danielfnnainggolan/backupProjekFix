@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="katalogButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Katalog</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="keluarmasukBarang">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Stok</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="account">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Account</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Sales</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

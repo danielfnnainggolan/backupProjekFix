@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>168</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Halaman Utama</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../data/ui/logo.qrc">
+    <normaloff>:/newPrefix/logo.png</normaloff>:/newPrefix/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="katalogButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {color:white; background-color:#B5B5B5;border:2px solid black;
+border-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color: #3D3D3D;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Katalog</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="keluarmasukBarang">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {color:white; background-color:#B5B5B5;border:2px solid black;
+border-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color: #3D3D3D;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Opname Barang</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../data/ui/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

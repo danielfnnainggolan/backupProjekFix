@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Katalog - PT. Karya Graha Laboratory</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../data/ui/logo.qrc">
+    <normaloff>:/newPrefix/logo.png</normaloff>:/newPrefix/logo.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="centralwidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="addButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>61</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sans Serif Collection</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+          </property>
+          <property name="text">
+           <string>Tambah Data</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="editButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>61</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sans Serif Collection</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;border-left:0px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Ubah Data</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="deleteButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>130</width>
+            <height>61</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sans Serif Collection</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-left:0px;border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Hapus Data</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">color:black;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Cari Merek : &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="searchField">
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid black;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 20px ;
+max-height:20px;
+selection-background-color: gray;
+color:black
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>Cth : Gratech</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="satuanTable">
+        <property name="styleSheet">
+         <string notr="true">QTableWidget{
+
+border: 1px solid black ;
+
+border-color:black;
+
+
+}
+
+
+QHeaderView::section {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #000000,
+                                      stop: 0.6 #000000, stop:1 #656565);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #B5B5B5;
+
+}
+
+
+QTableWidget QTableCornerButton::section {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #000000,
+                                      stop: 0.6 #000000, stop:1 #656565); }
+
+
+</string>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+        <property name="dragDropOverwriteMode">
+         <bool>false</bool>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::SingleSelection</enum>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerItem</enum>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="sortingEnabled">
+         <bool>false</bool>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>100</number>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>id</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Satuan Jumlah Barang</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../data/font/opensans.qrc"/>
+  <include location="../data/ui/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

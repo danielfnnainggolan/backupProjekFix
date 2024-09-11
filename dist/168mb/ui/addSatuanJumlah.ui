@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>275</width>
+    <height>31</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tambah Satuan Jumlah Barang</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../data/ui/logo.qrc">
+    <normaloff>:/newPrefix/logo.png</normaloff>:/newPrefix/logo.png</iconset>
+  </property>
+  <widget class="QLineEdit" name="nama_satuan">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>201</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid gray;
+
+border-bottom-left-radius: 5px;
+
+border-bottom-right-radius: 5px;
+padding: 0 8px;
+min-height: 15px ;
+
+selection-background-color: darkgray;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Cth : pcs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apply">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid gray;
+border-left : 0px;
+padding: 0 8px;
+min-height: 15px ;
+
+selection-background-color: darkgray;</string>
+   </property>
+   <property name="text">
+    <string>Konfirmasi</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>201</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid gray;
+
+border-bottom-left-radius: 5px;
+
+border-bottom-right-radius: 5px;
+padding: 0 8px;
+min-height: 15px ;
+
+selection-background-color: darkgray;</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <zorder>id</zorder>
+  <zorder>nama_satuan</zorder>
+  <zorder>apply</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>nama_satuan</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../data/ui/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

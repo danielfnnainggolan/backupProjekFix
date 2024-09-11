@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>checkbox-checked-hover.svg</file>
+    <file>checkbox-unchecked-hover.svg</file>
+    <file>checkbox-unchecked-svgrepo-com.svg</file>
+    <file>checkbox-checked.svg</file>
+    <file>stylesheet-branch-end.png</file>
+    <file>branch-end.png</file>
+    <file>stylesheet-branch-more.png</file>
+    <file>vline.png</file>
+    <file>stylesheet-vline.png</file>
+    <file>branch-closed.png</file>
+    <file>branch-opened.png</file>
+    <file>drop-down-arrow.png</file>
+    <file>logo.png</file>
+    <file>branch-more.png</file>
+    <file>book-open.svg</file>
+  </qresource>
+  <qresource prefix="menu">
+    <file>clipboard.svg</file>
+    <file>package.svg</file>
+    <file>hambmenu.png</file>
+  </qresource>
+</RCC>
