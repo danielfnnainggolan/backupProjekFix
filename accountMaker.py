@@ -15,9 +15,10 @@ import os, connection
 from MyWidgets import CustomComboBox
 
 class accountMaker(QWidget):
-    def __init__(self):
+    def __init__(self, parent):
         super(accountMaker, self).__init__()
         uic.loadUi("ui/userAccount.ui", self)
+        self.parentWindow = parent
         self.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
         self.loadData()
         self.addButton.clicked.connect(self.addWindow)
@@ -26,7 +27,12 @@ class accountMaker(QWidget):
         self.accountTable.itemSelectionChanged.connect(self.singleClick)
         self.searchField.textChanged.connect(self.search)
         self.searchField.textEdited.connect(self.detect_edit)
-
+    
+    def closeEvent(self, event):
+        if self.parentWindow:
+            self.parentWindow.show()
+        event.accept()
+    
     def loadData(self):
         mydb = connection.Connect()
         mycursor = mydb.cursor()
@@ -156,6 +162,7 @@ class Add(QDialog):
         
         self.role.setCompleter(completer)
         self.role.setSourceModel(model)
+        self.role.lineEdit().setPlaceholderText("Pilih User Role")
 
     def Remove_line_edit(self):
         if len(self.line_edits)>1:
@@ -188,7 +195,7 @@ class Add(QDialog):
         line_edit.setSizePolicy(sizePolicy)
         line_edit.setStyleSheet("border: 2px solid gray;padding: 0 1px;selection-background-color: darkgray;")
         line_edit.setFixedHeight(31)
-        line_edit.setPlaceholderText("Cth: 1A")
+        line_edit.setPlaceholderText("Cth: Anto")
         
 
         #Custom Combo Box
@@ -204,7 +211,7 @@ class Add(QDialog):
                                 "QComboBox::down-arrow:on {top: 1px;left: 1px;}"
                                 "QComboBox QAbstractItemView {border: 3px solid darkgray;selection-background-color: gray;}")
         combobox.setFixedHeight(31)
-        combobox.setPlaceholderText("Cth: 1A")
+        combobox.lineEdit().setPlaceholderText("Pilih User Role")
 
 
 

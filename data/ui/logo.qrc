@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>percentage.png</file>
     <file>checkbox-checked-hover.svg</file>
     <file>checkbox-unchecked-hover.svg</file>
     <file>checkbox-unchecked-svgrepo-com.svg</file>

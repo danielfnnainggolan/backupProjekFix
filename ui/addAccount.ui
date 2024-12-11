@@ -154,7 +154,7 @@ QComboBox QAbstractItemView {
           <enum>QComboBox::NoInsert</enum>
          </property>
          <property name="placeholderText">
-          <string>WOIIII</string>
+          <string>Role</string>
          </property>
         </widget>
        </item>

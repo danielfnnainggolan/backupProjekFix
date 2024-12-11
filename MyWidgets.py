@@ -1,6 +1,6 @@
 
-from PyQt5.QtWidgets import QTreeView, QCompleter, QComboBox
-from PyQt5.QtCore import Qt, QRect, QSortFilterProxyModel, QRegExp
+from PyQt5.QtWidgets import QTreeView, QCompleter, QComboBox, QDoubleSpinBox
+from PyQt5.QtCore import Qt, QRect, QSortFilterProxyModel, QRegExp, QLocale
 
 class CustomComboBox(QComboBox):
    
@@ -89,12 +89,38 @@ class CustomComboBox(QComboBox):
         
         super().keyPressEvent(e)
 
+class CustomSpinBox(QDoubleSpinBox):
+    def __init__(self, *args, **kwargs):
+        super().__init__()
+        self.setLocale(QLocale(QLocale.English))
+        
+    def textFromValue(self, value):
+        # Format the value using the current locale (adds thousand separator)
+        if value == 0:
+            return ""
+        else: 
+            formatted_value = self.locale().toString(value, 'f', self.decimals())
+            return formatted_value
+    
 
+    def focusInEvent(self, event):
+        super().focusInEvent(event)
+        
+        # Move the cursor position to after the prefix
+        text_length = len(self.lineEdit().text())
+        
+        self.lineEdit().setCursorPosition(text_length)
         
 
-
-
-
+    def mousePressEvent(self, event):
+        # Ensure the cursor is always set right after the prefix on mouse click
+        super().mousePressEvent(event)
+        text_length = len(self.lineEdit().text())
+        self.lineEdit().setCursorPosition(text_length)
+    
+        
+    
+        
 
         
 class CustomTreeView(QTreeView):

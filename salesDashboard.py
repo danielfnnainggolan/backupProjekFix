@@ -3,24 +3,18 @@ from PyQt5.QtWidgets import (
     QMainWindow, 
     QMessageBox, 
     QWidget, 
-    QPushButton,
     QApplication
 )
 from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from PyQt5.QtCore import Qt, QEvent, pyqtSlot
 
-import merek
-import lokasi
-import satuanjumlah
-import satuanbarang
-import katalog
-import dashboard
+import dashboard, priceList, customer
 
-class KatalogDashboard(QMainWindow):
+class SalesDashboard(QMainWindow):
     def __init__(self):
-        super(KatalogDashboard, self).__init__()
-        uic.loadUi("ui/katalog_dashboard.ui", self)
+        super(SalesDashboard, self).__init__()
+        uic.loadUi("ui/sales_dashboard.ui", self)
 
         self.setMouseTracking(True)
         
@@ -28,24 +22,24 @@ class KatalogDashboard(QMainWindow):
         self._widgets = [[] for _ in range(7)]
 
         # Initialize pages
-        self.katalog_page = katalog.KatalogFunction()
-        self.merek_page = merek.MerekFunction()
-        self.lokasiBarang = lokasi.LokasiFunction()
-        self.satuanBarang = satuanbarang.SatuanBarangFunction()
-        self.satuanJumlah = satuanjumlah.SatuanJumlahFunction()
+        self.priceList_page = priceList.PriceListFunction()
+        self.customer_page = customer.CustomerFunction()
+        self.lokasiBarang = priceList.PriceListFunction()
+        self.satuanBarang = priceList.PriceListFunction()
+        self.satuanJumlah = priceList.PriceListFunction()
 
         # Add pages to stacked widget
-        self.stackedWidget.addWidget(self.katalog_page)
-        self.stackedWidget.addWidget(self.merek_page)
+        self.stackedWidget.addWidget(self.priceList_page)
+        self.stackedWidget.addWidget(self.customer_page)
         self.stackedWidget.addWidget(self.lokasiBarang)
         self.stackedWidget.addWidget(self.satuanBarang)
         self.stackedWidget.addWidget(self.satuanJumlah)
        
         # Connect buttons to their functions
-        self.katalogBtn.clicked.connect(self.katalogStacked)
-        self.katalogBtn1.clicked.connect(self.katalogStacked)
-        self.merekBtn.clicked.connect(self.merekBarangStacked)
-        self.merekBtn1.clicked.connect(self.merekBarangStacked)
+        self.priceListBtn.clicked.connect(self.priceListStacked)
+        self.priceListBtn1.clicked.connect(self.priceListStacked)
+        self.customerBtn.clicked.connect(self.customerStacked)
+        self.customerBtn1.clicked.connect(self.customerStacked)
         self.lokasiBtn.clicked.connect(self.lokasiBarangStacked)
         self.lokasiBtn1.clicked.connect(self.lokasiBarangStacked)
         self.satuanbarangBtn.clicked.connect(self.satuanbarangStacked)
@@ -58,10 +52,10 @@ class KatalogDashboard(QMainWindow):
         self.beranda1.clicked.connect(self.home)
         
         # Add widgets for hover effect
-        self.add_widget(1, self.katalogBtn)
-        self.add_widget(1, self.katalogBtn1)
-        self.add_widget(2, self.merekBtn)
-        self.add_widget(2, self.merekBtn1)
+        self.add_widget(1, self.priceListBtn)
+        self.add_widget(1, self.priceListBtn1)
+        self.add_widget(2, self.customerBtn)
+        self.add_widget(2, self.customerBtn1)
         self.add_widget(3, self.lokasiBtn)
         self.add_widget(3, self.lokasiBtn1)
         self.add_widget(4, self.satuanbarangBtn)
@@ -73,7 +67,7 @@ class KatalogDashboard(QMainWindow):
         self.add_widget(7, self.exit)
         self.add_widget(7, self.exit1)
 
-        self.merek_page.merek_deleted.connect(self.test)
+        
         
     def add_widget(self, group, widget):
         """Add widget to a specific group for hover effects."""
@@ -113,9 +107,6 @@ class KatalogDashboard(QMainWindow):
         if msgBox.clickedButton() == buttonY:
             self.close()
 
-    @pyqtSlot(int) #INI BUAT SINKRON DATA
-    def test(self, value):
-        self.katalog_page.loadDataWorker()
 
     def home(self):
         self.hide()
@@ -123,10 +114,10 @@ class KatalogDashboard(QMainWindow):
         self.ui = dashboard.Dashboard()
         self.ui.show()
 
-    def katalogStacked(self): 
+    def priceListStacked(self): 
         self.stackedWidget.setCurrentIndex(0)
        
-    def merekBarangStacked(self):
+    def customerStacked(self):
         self.stackedWidget.setCurrentIndex(1)
         
     def lokasiBarangStacked(self):
@@ -140,6 +131,6 @@ class KatalogDashboard(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = KatalogDashboard()
+    window = SalesDashboard()
     window.show()
     sys.exit(app.exec_())

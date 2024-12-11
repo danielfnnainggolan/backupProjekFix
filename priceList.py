@@ -4,23 +4,25 @@ from PyQt5 import uic
 from datetime import datetime
 from PyQt5.QtCore import Qt, QEvent, QTimer
 import connection, os, dashboard
-from Worker import WorkerThread,WorkerSQL, WorkerSearch, WorkerExport
+from Worker import WorkerSearch, WorkerExport
+from WorkerPrice import WorkerThread, WorkerPage
 
 from pytz import timezone
 
 
-class KatalogFunction(QWidget):
+class PriceListFunction(QWidget):
     def __init__(self):
-        super(KatalogFunction, self).__init__()
-        uic.loadUi("ui/katalog.ui", self)
+        super(PriceListFunction, self).__init__()
+        uic.loadUi("ui/priceList.ui", self)
         self.total_page = None
         self.total_query = None
         self.workerSearch = None
         self.worker = None
-        self.workerSQL = None
-        self.loadSQLWorker()
+        self.workerPage = None
+        self.loadPageWorker()
         
         self.loadModel = QStandardItemModel()
+        
         self.loadModel.setHorizontalHeaderItem(0, QStandardItem("id_barang"))
         self.loadModel.setHorizontalHeaderItem(1, QStandardItem("id_merek"))
         self.loadModel.setHorizontalHeaderItem(2, QStandardItem("id_satuanukur"))
@@ -30,6 +32,7 @@ class KatalogFunction(QWidget):
         self.loadModel.setHorizontalHeaderItem(6, QStandardItem("Merek"))
         self.loadModel.setHorizontalHeaderItem(7, QStandardItem("Spesifikasi"))
         self.loadModel.setHorizontalHeaderItem(8, QStandardItem("Satuan Jumlah"))
+        self.loadModel.setHorizontalHeaderItem(9, QStandardItem("Harga"))
         
         
         self.editButton.setEnabled(False)
@@ -97,6 +100,43 @@ class KatalogFunction(QWidget):
         # Restart the timer to debounce input
         self.search_timer.start(300)
 
+    def Deletefunction(self):
+        self.katalogTable.clearSelection()
+        msgBox = QMessageBox()
+        msgBox.setText("Apakah Anda yakin untuk menghapus harga ini ?")
+        msgBox.setInformativeText("Nama Barang : "+" "+self.data[4])
+
+        msgBox.setWindowTitle("Konfirmasi Pilihan")
+        msgBox.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
+        msgBox.setIcon(QMessageBox.Warning)
+        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        buttonY = msgBox.button(QMessageBox.Ok)
+        buttonY.setText("Ya")
+        
+        buttonN = msgBox.button(QMessageBox.Cancel)
+        buttonN.setText("Tidak")
+        msgBox.setDefaultButton(buttonN)
+        ret = msgBox.exec()
+        if msgBox.clickedButton() == buttonY:
+
+            mydb = connection.Connect()
+            mycursor = mydb.cursor()
+            mycursor.execute("UPDATE katalog SET harga = 0 WHERE id_katalog= %s ;", self.data[0])
+            mydb.commit()
+            mycursor.close()
+            mydb.close()
+            
+            self.editButton.setEnabled(False)
+            self.deleteButton.setEnabled(False)
+            msgBox1 = QMessageBox()
+            msgBox1.setText("Data berhasil dihapus")
+            msgBox1.setIcon(QMessageBox.Information)
+            msgBox1.setStandardButtons(QMessageBox.Ok)
+            msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
+            msgBox1.setWindowTitle("Pemberitahuan")
+            ret1 = msgBox1.exec()
+            self.loadSQLWorker()
+            self.pageStart()
 
     def closeEvent(self, event):
         # Make sure to stop the worker thread when closing the application
@@ -108,9 +148,9 @@ class KatalogFunction(QWidget):
             if self.worker.isRunning():
                 self.worker.stop()
 
-        if self.workerSQL is not None:
-            if self.workerSQL.isRunning():
-                self.workerSQL.stop()
+        if self.workerPage is not None:
+            if self.workerPage.isRunning():
+                self.workerPage.stop()
 
         super().closeEvent(event)
 
@@ -124,15 +164,15 @@ class KatalogFunction(QWidget):
         self.worker.finished.connect(lambda :self.cleanup_worker(self.worker))
         self.worker.start()
 
-    def loadSQLWorker(self):
-        if self.workerSQL is not None:
-            if self.workerSQL.isRunning():
-                self.workerSQL.stop()
+    def loadPageWorker(self):
+        if self.workerPage is not None:
+            if self.workerPage.isRunning():
+                self.workerPage.stop()
 
-        self.workerSQL = WorkerSQL()
-        self.workerSQL.data_emitted.connect(self.handle_sql_result)
-        self.workerSQL.finished.connect(lambda : self.cleanup_worker(self.workerSQL))
-        self.workerSQL.start()
+        self.workerPage = WorkerPage()
+        self.workerPage.data_emitted.connect(self.handle_sql_result)
+        self.workerPage.finished.connect(lambda : self.cleanup_worker(self.workerPage))
+        self.workerPage.start()
 
     def loadSearchWorker(self):
         search_query = self.searchField.text()
@@ -148,8 +188,8 @@ class KatalogFunction(QWidget):
     def cleanup_worker(self, worker_name):
         if worker_name == self.worker:
             self.worker = None
-        elif worker_name == self.workerSQL:
-            self.workerSQL = None
+        elif worker_name == self.workerPage:
+            self.workerPage = None
         elif worker_name == self.workerSearch:
             self.workerSearch = None
 
@@ -162,10 +202,20 @@ class KatalogFunction(QWidget):
     def handle_sql_result(self, total_query, total_page):
         self.total_query = total_query
         self.total_page = total_page
+        if total_page == 0:
+            self.end.setEnabled(False)
+            self.next.setEnabled(False)
+            self.previous.setEnabled(False)
+            self.start.setEnabled(False)
+            self.current_page = 0
+        else:
+            self.end.setEnabled(True)
+            self.next.setEnabled(True)
+            self.previous.setEnabled(True)
+            self.start.setEnabled(True)
+            self.current_page = 1
         self.jumlah_halaman.setText("Halaman %s dari %s halaman" %(self.current_page, total_page))
         
-        
-
     def pageClicked(self, page_number, limit):
         self.current_page = page_number
         page_number-=1
@@ -518,18 +568,12 @@ class KatalogFunction(QWidget):
         row = 0
         self.loadModel.setRowCount(len(myresult))
         for katalog in myresult:
-            self.loadModel.setItem(row, 0, QStandardItem(str(katalog[0])))
-            self.loadModel.setItem(row, 1, QStandardItem(str(katalog[1])))
-            self.loadModel.setItem(row, 2, QStandardItem(str(katalog[2])))
-            self.loadModel.setItem(row, 3, QStandardItem(str(katalog[3])))
-            self.loadModel.setItem(row, 4, QStandardItem(katalog[4]))
-            self.loadModel.setItem(row, 5, QStandardItem(katalog[5]))
-            self.loadModel.setItem(row, 6, QStandardItem(katalog[6]))
-            self.loadModel.setItem(row, 7, QStandardItem(katalog[7]))
-            self.loadModel.setItem(row, 8, QStandardItem(katalog[8]))
-
+            for col, value in enumerate(katalog):
+                item = QStandardItem(str(value) if col != 9 else str(f'{value:,}').rstrip("0").rstrip("."))
+                item.setTextAlignment(Qt.AlignCenter)
+                self.loadModel.setItem(row, col, item)
             row += 1
-
+        
         self.katalogTable.setModel(self.loadModel)
         self.katalogTable.setColumnHidden(0, 1)
         self.katalogTable.setColumnHidden(1, 1)
@@ -594,7 +638,7 @@ class KatalogFunction(QWidget):
             msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
-            self.loadSQLWorker()
+            self.loadPageWorker()
             self.pageStart()
         
 
@@ -621,142 +665,59 @@ class KatalogFunction(QWidget):
         self.katalogTable.setColumnHidden(0, 1)
         self.katalogTable.setColumnHidden(1, 1)
         self.katalogTable.setColumnHidden(2, 1)
-        self.katalogTable.setColumnHidden(3, 1)   
+        self.katalogTable.setColumnHidden(3, 1)
 
+        
 class Edit(QWidget):  ##Edit Katalog 
     def __init__(self, parent):
         
         super(Edit, self).__init__()
-        uic.loadUi("ui/edit.ui", self)
+        uic.loadUi("ui/editPrice.ui", self)
         
         self.parent = parent
         self.data = self.parent.data
-        self.editButton.clicked.connect(lambda:self.auth(self.data[0]))
-        self.kode_barang.setText(self.data[4])
-        self.nama_barang.setText(self.data[5])
-        self.spesifikasi.setText(self.data[7].split()[0])
+        self.apply.clicked.connect(lambda:self.auth(self.data[0]))
+        print(self.data)
+        self.setWindowTitle("Ubah Harga Barang")
 
 
 
         model = QStandardItemModel()
-        model_spesifikasi = QStandardItemModel()
-        model_jumlah = QStandardItemModel()
 
         mydb = connection.Connect()
         mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, nama_merek FROM merek where deleted_At is NULL")
+        mycursor.execute("SELECT id_katalog , kodebarang FROM katalog where deleted_At is NULL")
         self.myresult = mycursor.fetchall()      
         mycursor.close()  
         mydb.close()
         
 
-        for merek in self.myresult:
-            self.nama_merek.addItem(merek[1], merek[0])
+        for katalog in self.myresult:
+            self.kodebarang.addItem(katalog[1], katalog[0])
     
 
         for i,word in enumerate(self.myresult):
             item = QStandardItem(word[1])
             model.setItem(i, 0, item)
-            if word[0] == int(self.data[1]):
-                self.nama_merek.setCurrentIndex(i)
+            if word[0] == int(self.data[0]):
+                self.kodebarang.setCurrentIndex(i)
 
         completer = QCompleter(self) 
         completer.setModelSorting(QCompleter.CaseInsensitivelySortedModel)
         completer.setCaseSensitivity(Qt.CaseInsensitive)
         completer.setCompletionMode(QCompleter.PopupCompletion)
         
-        self.nama_merek.setCompleter(completer)
-        self.nama_merek.setSourceModel(model)
- 
+        self.kodebarang.setCompleter(completer)
+        self.kodebarang.setSourceModel(model)
+        self.harga.setValue(int(self.data[9].replace(",", "")))
+        self.nama_barang.setText(self.data[5])
+        self.spesifikasi.setText(self.data[7])
+        self.satuan_jumlah.setText(self.data[8])
         
-        mydb = connection.Connect()
-        mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, satuan_ukur FROM satuan_ukur where deleted_At is NULL")
-        self.myresult_spesifikasi = mycursor.fetchall()
-        mycursor.close()
-        mydb.close()
-     
-        for satuan_ukur in self.myresult_spesifikasi:
-            self.satuan_ukur.addItem(satuan_ukur[1], satuan_ukur[0])
-    
-
-        for i,word in enumerate(self.myresult_spesifikasi):
-            item = QStandardItem(word[1])
-            model_spesifikasi.setItem(i, 0, item)
-            if word[0] == int(self.data[2]):
-                
-                self.satuan_ukur.setCurrentIndex(i)
-
-        completer_spesifikasi = QCompleter(self) 
-        completer_spesifikasi.setModelSorting(QCompleter.CaseInsensitivelySortedModel)
-        completer_spesifikasi.setCaseSensitivity(Qt.CaseInsensitive)
-        completer_spesifikasi.setCompletionMode(QCompleter.PopupCompletion)
         
-        self.satuan_ukur.setCompleter(completer_spesifikasi)
-        self.satuan_ukur.setSourceModel(model_spesifikasi)
-
-
-        mydb = connection.Connect()
-        mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, satuan_jumlah FROM satuan_jumlah where deleted_At is NULL")
-        self.myresult_jumlah = mycursor.fetchall()
-        mycursor.close()
-        mydb.close()
-     
-        for satuan_jumlah in self.myresult_jumlah:
-            self.satuan_jumlah.addItem(satuan_jumlah[1], satuan_jumlah[0])
-    
-
-        for i,word in enumerate(self.myresult_jumlah):
-            item = QStandardItem(word[1])
-            model_jumlah.setItem(i, 0, item)
-            if word[0] == int(self.data[3]):
-                self.satuan_jumlah.setCurrentIndex(i)
-
-        completer_jumlah = QCompleter(self) 
-        completer_jumlah.setModelSorting(QCompleter.CaseInsensitivelySortedModel)
-        completer_jumlah.setCaseSensitivity(Qt.CaseInsensitive)
-        completer_jumlah.setCompletionMode(QCompleter.PopupCompletion)
-        
-        self.satuan_jumlah.setCompleter(completer_jumlah)
-        self.satuan_jumlah.setSourceModel(model_jumlah)
-        
-        self.nama_merek.lineEdit().setPlaceholderText("Pilih Merek Barang")
-        self.satuan_ukur.lineEdit().setPlaceholderText("Pilih Satuan Ukur")
-        self.satuan_jumlah.lineEdit().setPlaceholderText("Pilih Satuan Jumlah")
-
-        self.nama_merek.installEventFilter(self)
-        self.satuan_jumlah.installEventFilter(self)
-        self.satuan_ukur.installEventFilter(self)
   
 
-    def eventFilter(self, source, event): #TODO: just another dream not realized
-        if event.type() == QEvent.FocusIn and source == self.nama_merek :
-            self.nama_merek.showPopup()
-            if event.type() == QEvent.FocusOut:
-                self.nama_merek.hidePopup()
-            else:
-                False
-
-
-        elif event.type() == QEvent.FocusIn and source == self.satuan_ukur:
-            self.satuan_ukur.showPopup()
-            if event.type() == QEvent.FocusOut:
-                self.satuan_ukur.hidePopup()
-            else:
-                False
-
-        elif event.type() == QEvent.FocusIn and source == self.satuan_jumlah:
-            self.satuan_jumlah.showPopup()
-            if event.type() == QEvent.FocusOut:
-                self.satuan_jumlah.hidePopup()
-            else:
-                False
-
-        
-            
-        return super().eventFilter(source, event)
-
+   
     def openFileNameDialog(self):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
@@ -773,15 +734,42 @@ class Edit(QWidget):  ##Edit Katalog
             self.file_path = fileName
 
     def auth(self, id):
-        # QFile.remove(os.path.join("data/uploads", self.image.old))
-        push_katalog = []
-        push_katalog.insert(0, id)
-        push_katalog.insert(1, self.kode_barang.text())
-        push_katalog.insert(2, self.nama_barang.text())
-        push_katalog.insert(3, self.nama_merek.currentData())
-        push_katalog.insert(4, self.spesifikasi.text())
-        push_katalog.insert(5, self.satuan_ukur.currentData())
-        push_katalog.insert(6, self.satuan_jumlah.currentData())
+        push = []
+        push.insert(0, self.harga.cleanText().replace('.', ''))
+        push.insert(1, id)
+        
+        
+        mydb = connection.Connect()
+        error = connection.Error()
+        mycursor = mydb.cursor()
+        try:
+            query = "UPDATE katalog SET harga = %s WHERE id_katalog = %s "
+            mycursor.execute(query, (push[0],push[1]))    
+            mydb.commit()
+            mycursor.close()
+            mydb.close()
+        #winsoft 24*14
+        except error as err:
+            print("Database Update Failed !: {}".format(err))
+            msgBox1 = QMessageBox()
+            msgBox1.setText("Ada data yang kosong")
+            msgBox1.setIcon(QMessageBox.Warning)
+            msgBox1.setStandardButtons(QMessageBox.Ok)
+            msgBox1.setWindowTitle("Data Kosong")
+            msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
+            ret1 = msgBox1.exec()
+        else:
+            msgBox1 = QMessageBox()
+            msgBox1.setText("Data berhasil ditambah")
+            msgBox1.setIcon(QMessageBox.Information)
+            msgBox1.setStandardButtons(QMessageBox.Ok)
+            msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
+            msgBox1.setWindowTitle("Pemberitahuan")
+            ret1 = msgBox1.exec()
+        
+        self.parent.loadPageWorker()
+        self.parent.pageStart()
+        self.close()
         
         # if "/" in self.file_path:
         #     nameFile = self.file_path.split("/")
@@ -793,37 +781,6 @@ class Edit(QWidget):  ##Edit Katalog
         # print(self.file_path)
         # push.insert(8,str(push[1])+"."+str(nameFile[-1]))
         
-        try:
-            mydb = connection.Connect()
-            mycursor = mydb.cursor()
-            query = "UPDATE katalog SET kodebarang = %s, nama_barang = %s, id_merek = %s, spesifikasi = %s, id_satuan_ukur = %s, id_satuan_jumlah = %s WHERE id_katalog = %s"
-            mycursor.execute(query, (push_katalog[1],push_katalog[2],push_katalog[3],push_katalog[4],push_katalog[5], push_katalog[6],push_katalog[0]))
-            mydb.commit()
-            mycursor.close()
-            mydb.close()
-            
-        except:
-            msgBox1 = QMessageBox()
-            msgBox1.setText("Ada data yang kosong")
-            msgBox1.setIcon(QMessageBox.Warning)
-            msgBox1.setStandardButtons(QMessageBox.Ok)
-            msgBox1.setWindowTitle("Data Kosong")
-            msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
-            ret1 = msgBox1.exec()
-
-        else:
-            msgBox1 = QMessageBox()
-            msgBox1.setText("Data berhasil diubah")
-            msgBox1.setIcon(QMessageBox.Information)
-            msgBox1.setStandardButtons(QMessageBox.Ok)
-            msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
-            msgBox1.setWindowTitle("Pemberitahuan")
-            ret1 = msgBox1.exec()
-            self.parent.loadSQLWorker()
-            self.parent.pageStart()
-            self.parent.editButton.setEnabled(False)
-            self.parent.editButton.setEnabled(False)
-            self.close()
         
 class Export(QWidget):  ##Export Function
     def __init__(self, file_path, parent):
@@ -858,6 +815,7 @@ class Export(QWidget):  ##Export Function
         
         self.progressBar.setValue(progress)
         if self.progressBar.value() == 100:
+            print("YAY")
             msgBox1 = QMessageBox()
             msgBox1.setText("Data berhasil diekspor")
             msgBox1.setIcon(QMessageBox.Information)
@@ -870,24 +828,21 @@ class Export(QWidget):  ##Export Function
 class Add(QWidget):  ##Add Katalog
     def __init__(self, parent):
         super(Add, self).__init__()
-        uic.loadUi("ui/add.ui", self)
+        uic.loadUi("ui/addPrice.ui", self)
         self.parent = parent
-        self.confirmBtn.clicked.connect(self.auth)
+        self.apply.clicked.connect(self.auth)
         
         model = QStandardItemModel()
-        model_spesifikasi = QStandardItemModel()
-        model_satuan_jumlah = QStandardItemModel()
-
+    
         mydb = connection.Connect()
         mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, nama_merek FROM merek where deleted_At is NULL")
+        mycursor.execute("SELECT id_katalog, kodebarang, nama_barang, spesifikasi, satuan_jumlah FROM daftar_katalog ")
         self.myresult = mycursor.fetchall()    
         mycursor.close()    
         mydb.close()
         
-
-        for merek in self.myresult:
-            self.nama_merek.addItem(merek[1], merek[0])
+        for katalog in self.myresult:
+            self.kodebarang.addItem(katalog[1], katalog[0])
     
 
         for i,word in enumerate(self.myresult):
@@ -900,65 +855,20 @@ class Add(QWidget):  ##Add Katalog
         completer.setCaseSensitivity(Qt.CaseInsensitive)
         completer.setCompletionMode(QCompleter.PopupCompletion)
         
-        self.nama_merek.setCompleter(completer)
-        self.nama_merek.setSourceModel(model)
- 
-
-
-        mydb = connection.Connect()
-        mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, satuan_ukur FROM satuan_ukur where deleted_At is NULL")
-        self.myresult_spesifikasi = mycursor.fetchall()
-        mycursor.close()
-        mydb.close()
-     
-        for satuan_ukur in self.myresult_spesifikasi:
-            self.satuan_ukur.addItem(satuan_ukur[1], satuan_ukur[0])
+        self.kodebarang.setCompleter(completer)
+        self.kodebarang.setSourceModel(model)
+        self.kodebarang.currentIndexChanged.connect(self.autoFill)
     
-
-        for i,word in enumerate(self.myresult_spesifikasi):
-            item = QStandardItem(word[1])
-            model_spesifikasi.setItem(i, 0, item)
-
-        completer_spesifikasi = QCompleter(self) 
-        completer_spesifikasi.setModelSorting(QCompleter.CaseInsensitivelySortedModel)
-        completer_spesifikasi.setCaseSensitivity(Qt.CaseInsensitive)
-        completer_spesifikasi.setCompletionMode(QCompleter.PopupCompletion)
-        
-        self.satuan_ukur.setCompleter(completer_spesifikasi)
-        self.satuan_ukur.setSourceModel(model_spesifikasi)
+    def autoFill(self, value):
+        try:
+            self.nama_barang.setText(self.myresult[value][2])
+            self.spesifikasi.setText(self.myresult[value][3])
+            self.satuan_jumlah.setText(self.myresult[value][4])
+        except IndexError:
+            print("Index out of bounds")
 
 
-        mydb = connection.Connect()
-        mycursor = mydb.cursor()
-        mycursor.execute("SELECT id, satuan_jumlah FROM satuan_jumlah where deleted_At is NULL")
-        self.myresult_satuan_ukur = mycursor.fetchall()
-        mycursor.close()
-        mydb.close()
-     
-        for satuan_jumlah in self.myresult_satuan_ukur:
-            self.satuan_jumlah.addItem(satuan_jumlah[1], satuan_jumlah[0])
-    
 
-        for i,word in enumerate(self.myresult_satuan_ukur):
-            item = QStandardItem(word[1])
-            model_satuan_jumlah.setItem(i, 0, item)
-
-        completer_satuan_ukur = QCompleter(self) 
-        completer_satuan_ukur.setModelSorting(QCompleter.CaseInsensitivelySortedModel)
-        completer_satuan_ukur.setCaseSensitivity(Qt.CaseInsensitive)
-        completer_satuan_ukur.setCompletionMode(QCompleter.PopupCompletion)
-        
-        self.satuan_jumlah.setCompleter(completer_satuan_ukur)
-        self.satuan_jumlah.setSourceModel(model_satuan_jumlah)
-        
-        self.nama_merek.lineEdit().setPlaceholderText("Pilih Merek Barang")
-        self.satuan_ukur.lineEdit().setPlaceholderText("Pilih Satuan Ukur")
-        self.satuan_jumlah.lineEdit().setPlaceholderText("Pilih Satuan Jumlah")
-
-        self.nama_merek.installEventFilter(self)
-        self.satuan_ukur.installEventFilter(self)
-        self.satuan_jumlah.installEventFilter(self)
   
 
     def eventFilter(self, source, event): #TODO: just another dream not realized
@@ -982,24 +892,21 @@ class Add(QWidget):  ##Add Katalog
             
         return super().eventFilter(source, event)
 
-        
+    
          
     def auth(self):
         # QFile.remove(os.path.join("data/uploads", self.image.old))
         push = []
-        push.insert(0, self.kode_barang.text())
-        push.insert(1, self.nama_barang.text())
-        push.insert(2, self.nama_merek.currentData())
-        push.insert(3, self.spesifikasi.text())
-        push.insert(4, self.satuan_ukur.currentData())
-        push.insert(5, self.satuan_jumlah.currentData())
+        push.insert(0, self.harga.cleanText().replace('.', ''))
+        push.insert(1, self.kodebarang.currentData())
+        
         
         mydb = connection.Connect()
         error = connection.Error()
         mycursor = mydb.cursor()
         try:
-            query = "INSERT INTO katalog (kodebarang, nama_barang, id_merek, spesifikasi, id_satuan_ukur, id_satuan_jumlah, created_At) VALUES (%s, %s , %s , %s, %s, %s, %s)"
-            mycursor.execute(query, (push[0],push[1],push[2],push[3],push[4], push[5], datetime.now(timezone('Asia/Jakarta'))))    
+            query = "UPDATE katalog SET harga = %s WHERE id_katalog = %s "
+            mycursor.execute(query, (push[0],push[1]))    
             mydb.commit()
             mycursor.close()
             mydb.close()
@@ -1022,7 +929,7 @@ class Add(QWidget):  ##Add Katalog
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
         
-        self.parent.loadSQLWorker()
+        self.parent.loadPageWorker()
         self.parent.pageStart()
         self.close()
 
