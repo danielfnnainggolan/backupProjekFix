@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1079</width>
+    <width>1076</width>
     <height>757</height>
    </rect>
   </property>
@@ -39,10 +39,10 @@
       <property name="verticalSpacing">
        <number>1</number>
       </property>
-      <item row="1" column="1">
-       <widget class="QStackedWidget" name="stackedWidget">
+      <item row="0" column="0" colspan="2">
+       <widget class="QFrame" name="frame_2">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -50,25 +50,74 @@
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>0</height>
+          <height>65</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>16777215</width>
-          <height>16777215</height>
+          <height>61</height>
          </size>
         </property>
         <property name="styleSheet">
-         <string notr="true">QStackedWidget {
+         <string notr="true">QFrame{background-color:#222725; 
 
-background-color:#e8e4e3
+border-bottom:2px solid white}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QToolButton" name="ham_menu">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton {background-color:#222725;
+border-top:0px none;
 
-}</string>
-        </property>
-        <property name="currentIndex">
-         <number>-1</number>
-        </property>
+
+padding-right: 0  8px;
+
+color:rgb(255, 255, 255);
+}
+
+QToolButton:pressed{
+background-color: #0e526b;
+border-style:inset}
+
+QToolButton:hover:!pressed{
+background-color: #1e9dce;}
+
+QToolButton[hovered=&quot;true&quot;]{
+       background-color: #1e9dce;
+    }
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../data/ui/menu.svg</normaloff>../data/ui/menu.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>80</width>
+           <height>80</height>
+          </size>
+         </property>
+        </widget>
        </widget>
       </item>
       <item row="1" column="0">
@@ -102,9 +151,9 @@ border-right:1px solid white;
         <widget class="QPushButton" name="priceListBtn">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>0</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -170,9 +219,9 @@ QPushButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="customerBtn">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>60</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -304,8 +353,8 @@ QToolButton[hovered=&quot;true&quot;]{
           <string>...</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../data/ui/package.svg</normaloff>../data/ui/package.svg</iconset>
+          <iconset resource="../data/ui/logo.qrc">
+           <normaloff>:/newPrefix/group.svg</normaloff>:/newPrefix/group.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -317,9 +366,9 @@ QToolButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="exit">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>433</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -417,9 +466,9 @@ QToolButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="beranda">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>373</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -518,9 +567,9 @@ QToolButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="lokasiBtn">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>120</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -618,9 +667,9 @@ QToolButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="satuanbarangBtn">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>180</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -718,9 +767,9 @@ QToolButton[hovered=&quot;true&quot;]{
         <widget class="QPushButton" name="satuanjumlahBtn">
          <property name="geometry">
           <rect>
-           <x>1</x>
+           <x>-2</x>
            <y>240</y>
-           <width>178</width>
+           <width>181</width>
            <height>61</height>
           </rect>
          </property>
@@ -831,10 +880,10 @@ QToolButton[hovered=&quot;true&quot;]{
         <zorder>satuanjumlahBtn1</zorder>
        </widget>
       </item>
-      <item row="0" column="0" colspan="2">
-       <widget class="QFrame" name="frame_2">
+      <item row="1" column="1">
+       <widget class="QStackedWidget" name="stackedWidget">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -842,74 +891,25 @@ QToolButton[hovered=&quot;true&quot;]{
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>65</height>
+          <height>0</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>16777215</width>
-          <height>61</height>
+          <height>16777215</height>
          </size>
         </property>
         <property name="styleSheet">
-         <string notr="true">QFrame{background-color:#222725; 
+         <string notr="true">QStackedWidget {
 
-border-bottom:2px solid white}
-</string>
+background-color:#e8e4e3
+
+}</string>
         </property>
-        <property name="frameShape">
-         <enum>QFrame::StyledPanel</enum>
+        <property name="currentIndex">
+         <number>-1</number>
         </property>
-        <property name="frameShadow">
-         <enum>QFrame::Raised</enum>
-        </property>
-        <widget class="QToolButton" name="ham_menu">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>41</width>
-           <height>41</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QToolButton {background-color:#222725;
-border-top:0px none;
-
-
-padding-right: 0  8px;
-
-color:rgb(255, 255, 255);
-}
-
-QToolButton:pressed{
-background-color: #0e526b;
-border-style:inset}
-
-QToolButton:hover:!pressed{
-background-color: #1e9dce;}
-
-QToolButton[hovered=&quot;true&quot;]{
-       background-color: #1e9dce;
-    }
-
-
-</string>
-         </property>
-         <property name="text">
-          <string>...</string>
-         </property>
-         <property name="icon">
-          <iconset>
-           <normaloff>../data/ui/menu.svg</normaloff>../data/ui/menu.svg</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-        </widget>
        </widget>
       </item>
      </layout>

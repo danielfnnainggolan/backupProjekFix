@@ -23,6 +23,8 @@ class WorkerThread(QThread):
             self.quit()
             self.wait()
 
+
+
 class WorkerSQL(QThread):
     data_emitted = pyqtSignal(int,int) #emit total_page and total_query
 

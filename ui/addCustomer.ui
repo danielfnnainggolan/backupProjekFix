@@ -131,7 +131,7 @@ padding: 0 0px;}
         </size>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::StrongFocus</enum>
        </property>
        <property name="styleSheet">
         <string notr="true">QLineEdit{border: 2px solid gray;
@@ -279,7 +279,7 @@ padding: 0 0px;}
         </size>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::StrongFocus</enum>
        </property>
        <property name="styleSheet">
         <string notr="true">QLineEdit{border: 2px solid gray;
@@ -292,6 +292,9 @@ max-height:15px;
 QLineEdit:read-only {
     background: lightblue;
 }</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
        <property name="readOnly">
         <bool>false</bool>
@@ -325,7 +328,7 @@ QLineEdit:read-only {
         </size>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::StrongFocus</enum>
        </property>
        <property name="styleSheet">
         <string notr="true">QLineEdit{border: 2px solid gray;
@@ -397,7 +400,7 @@ QPushButton:hover {
         </size>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::StrongFocus</enum>
        </property>
        <property name="styleSheet">
         <string notr="true">QLineEdit{border: 2px solid gray;
@@ -425,9 +428,11 @@ QLineEdit:read-only {
   </widget>
  </widget>
  <tabstops>
-  <tabstop>apply</tabstop>
+  <tabstop>nama_pelanggan</tabstop>
+  <tabstop>alamat_pelanggan</tabstop>
   <tabstop>nomor_hp</tabstop>
   <tabstop>email</tabstop>
+  <tabstop>apply</tabstop>
  </tabstops>
  <resources>
   <include location="../data/ui/logo.qrc"/>

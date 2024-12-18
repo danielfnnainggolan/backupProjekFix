@@ -114,6 +114,10 @@ class SalesDashboard(QMainWindow):
         self.ui = dashboard.Dashboard()
         self.ui.show()
 
+    @pyqtSlot(int) #INI BUAT SINKRON DATA
+    def test(self, value):
+        self.priceList_page.loadDataWorker()
+
     def priceListStacked(self): 
         self.stackedWidget.setCurrentIndex(0)
        

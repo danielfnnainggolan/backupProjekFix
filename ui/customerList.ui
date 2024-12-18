@@ -317,6 +317,21 @@ color:black
       </layout>
      </item>
      <item>
+      <widget class="QLabel" name="jumlah_halaman">
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>This is Halaman Placeholder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QTableView" name="customerTable">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
@@ -388,21 +403,6 @@ QHeaderView::section {
        <attribute name="verticalHeaderCascadingSectionResizes">
         <bool>true</bool>
        </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="jumlah_halaman">
-       <property name="font">
-        <font>
-         <family>Arial Black</family>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>This is Halaman Placeholder</string>
-       </property>
       </widget>
      </item>
      <item>
