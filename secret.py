@@ -5,4 +5,5 @@ class MyApp(QApplication):
         super().__init__(*args, **kwargs)
         self.role_id = None
         self.username = None
+        self.id = None
 

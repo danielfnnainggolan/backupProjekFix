@@ -1,16 +1,13 @@
-# -*- mode: python ; coding: utf-8 -*-
-
-
 a = Analysis(
     ['main.py'],
-    pathex=[],
-    binaries=[],
+    pathex=None,
+    binaries=None,
     datas=[('data','data'), ('ui','ui'), ('.\config.ini' , '.'), ('.\logo.ico' , '.'), ('.\MyWidgets.py' , '.')],
     hiddenimports=[],
-    hookspath=[],
+    hookspath=None,
     hooksconfig={},
-    runtime_hooks=[],
-    excludes=[],
+    runtime_hooks=None,
+    excludes=None,
     noarchive=False,
     optimize=0,
 )
@@ -26,7 +23,7 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=True,
+    console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
@@ -42,5 +39,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='main',
+    name='KGA Katalog',
 )

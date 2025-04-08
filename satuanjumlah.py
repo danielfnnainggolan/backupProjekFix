@@ -2,13 +2,14 @@ from PyQt5.QtWidgets import QWidget, QSizePolicy, QTableWidgetItem, QDialog, QMe
 from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from datetime import datetime
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal
 from pytz import timezone
 import connection, os
 
 
 
 class SatuanJumlahFunction(QWidget):
+    satuanJumlah_deleted = pyqtSignal(int)
     def __init__(self):
         super(SatuanJumlahFunction, self).__init__()
         uic.loadUi("ui/satuanjumlah.ui", self)

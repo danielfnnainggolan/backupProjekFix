@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>15</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="addButton">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Tambah Data</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="editButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>51</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;border-left:0px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>Ubah Data</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;border-left:0px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>Hapus Data</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exportButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif Collection</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-left:0px;border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Export Data</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Minimum</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>60</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Cari Pelanggan : &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="searchField">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 2px solid black;
+border-radius: 6px;
+padding: 0 8px;
+min-height: 20px ;
+max-height:20px;
+selection-background-color: gray;
+color:black
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Cth : GRA.1000.01</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="jumlah_halaman">
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>This is Halaman Placeholder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableView" name="customerTable">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTableView{
+
+border: 1px solid black ;
+
+border-color:black;
+
+
+}
+
+
+QTableView QTableCornerButton::section {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #000000,
+                                      stop: 0.6 #000000, stop:1 #656565); }
+
+QHeaderView::section {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #000000,
+                                      stop: 0.6 #000000, stop:1 #656565);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #B5B5B5;
+
+}
+
+</string>
+       </property>
+       <property name="sizeAdjustPolicy">
+        <enum>QAbstractScrollArea::AdjustToContents</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="dragDropOverwriteMode">
+        <bool>false</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerItem</enum>
+       </property>
+       <property name="showGrid">
+        <bool>true</bool>
+       </property>
+       <property name="sortingEnabled">
+        <bool>false</bool>
+       </property>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>100</number>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>100</number>
+       </attribute>
+       <attribute name="verticalHeaderCascadingSectionResizes">
+        <bool>true</bool>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="pageLayout">
+       <property name="spacing">
+        <number>1</number>
+       </property>
+       <property name="topMargin">
+        <number>14</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="start">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 0 8px;}
+
+
+
+
+QPushButton:hover:!pressed {
+ background-color:#262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>&lt;&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="previous">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;border-left:0px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+							border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }</string>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+							border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }</string>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+							border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }</string>
+         </property>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+							border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }</string>
+         </property>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="next">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-right:0px;border-left:0px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+
+
+
+
+
+QPushButton:hover {
+  background-color:rgb(61, 61, 61)
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="end">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:disabled {
+    color: rgba(0,0, 0, 100)
+}
+
+QPushButton {color:white; background-color:#4E4E4E;border:2px solid black;border-left:0px ;border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+padding: 0 8px;
+}
+
+QPushButton:hover:!pressed {
+ background-color: #262626;
+border-style:inset
+}
+
+QPushButton:hover {
+ background-color:#171717
+}
+</string>
+         </property>
+         <property name="text">
+          <string>&gt;&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from datetime import datetime
-from PyQt5.QtCore import Qt, QEvent
+from PyQt5.QtCore import Qt, QEvent, pyqtSlot
 import os, stok , laporanstok, dashboard
 
 
@@ -65,6 +65,8 @@ class opnameFunction(QMainWindow):
 
         self.add_widget3(self.exit)
         self.add_widget3(self.exit1)
+
+        self.stok_page.stock_change.connect(self.test)
 
        
 
@@ -170,6 +172,11 @@ class opnameFunction(QMainWindow):
     #-------------------------------------------- end for multiple hovers
 
     #-----------------------------------------------start buttons function
+
+    @pyqtSlot(int) #INI BUAT SINKRON DATA
+    def test(self, value):
+        self.laporanstok_page.loadData()
+
     def exit_program(self):
         msgBox = QMessageBox()
         msgBox.setText("Apakah Anda yakin untuk keluar dari program ini ?")

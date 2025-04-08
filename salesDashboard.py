@@ -1,4 +1,4 @@
-import os, sys
+import os, sys , time
 from PyQt5.QtWidgets import (
     QMainWindow, 
     QMessageBox, 
@@ -9,7 +9,9 @@ from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from PyQt5.QtCore import Qt, QEvent, pyqtSlot
 
-import dashboard, priceList, customer
+import dashboard, priceList, customer, quotation
+
+
 
 class SalesDashboard(QMainWindow):
     def __init__(self):
@@ -24,14 +26,14 @@ class SalesDashboard(QMainWindow):
         # Initialize pages
         self.priceList_page = priceList.PriceListFunction()
         self.customer_page = customer.CustomerFunction()
-        self.lokasiBarang = priceList.PriceListFunction()
+        self.quotation_page = quotation.QuotationFunction()
         self.satuanBarang = priceList.PriceListFunction()
         self.satuanJumlah = priceList.PriceListFunction()
 
         # Add pages to stacked widget
         self.stackedWidget.addWidget(self.priceList_page)
         self.stackedWidget.addWidget(self.customer_page)
-        self.stackedWidget.addWidget(self.lokasiBarang)
+        self.stackedWidget.addWidget(self.quotation_page)
         self.stackedWidget.addWidget(self.satuanBarang)
         self.stackedWidget.addWidget(self.satuanJumlah)
        
@@ -40,8 +42,8 @@ class SalesDashboard(QMainWindow):
         self.priceListBtn1.clicked.connect(self.priceListStacked)
         self.customerBtn.clicked.connect(self.customerStacked)
         self.customerBtn1.clicked.connect(self.customerStacked)
-        self.lokasiBtn.clicked.connect(self.lokasiBarangStacked)
-        self.lokasiBtn1.clicked.connect(self.lokasiBarangStacked)
+        self.quotationBtn.clicked.connect(self.quotationStacked)
+        self.quotationBtn1.clicked.connect(self.quotationStacked)
         self.satuanbarangBtn.clicked.connect(self.satuanbarangStacked)
         self.satuanbarangBtn1.clicked.connect(self.satuanbarangStacked)
         self.satuanjumlahBtn.clicked.connect(self.satuanjumlahStacked)
@@ -56,8 +58,8 @@ class SalesDashboard(QMainWindow):
         self.add_widget(1, self.priceListBtn1)
         self.add_widget(2, self.customerBtn)
         self.add_widget(2, self.customerBtn1)
-        self.add_widget(3, self.lokasiBtn)
-        self.add_widget(3, self.lokasiBtn1)
+        self.add_widget(3, self.quotationBtn)
+        self.add_widget(3, self.quotationBtn1)
         self.add_widget(4, self.satuanbarangBtn)
         self.add_widget(4, self.satuanbarangBtn1)
         self.add_widget(5, self.satuanjumlahBtn)
@@ -114,7 +116,7 @@ class SalesDashboard(QMainWindow):
         self.ui = dashboard.Dashboard()
         self.ui.show()
 
-    @pyqtSlot(int) #INI BUAT SINKRON DATA
+    @pyqtSlot(int) #INI BUAT SINKRON DATA JANGAN DIHAPUS, dihasilkan dari emit
     def test(self, value):
         self.priceList_page.loadDataWorker()
 
@@ -124,7 +126,7 @@ class SalesDashboard(QMainWindow):
     def customerStacked(self):
         self.stackedWidget.setCurrentIndex(1)
         
-    def lokasiBarangStacked(self):
+    def quotationStacked(self):
         self.stackedWidget.setCurrentIndex(2)
 
     def satuanbarangStacked(self):
@@ -133,8 +135,4 @@ class SalesDashboard(QMainWindow):
     def satuanjumlahStacked(self):
         self.stackedWidget.setCurrentIndex(4)
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = SalesDashboard()
-    window.show()
-    sys.exit(app.exec_())
+

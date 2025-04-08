@@ -68,6 +68,7 @@ class Login(QMainWindow):
                 app = MyApp.instance()
                 app.role_id = str(myresult[0][3])
                 app.username = str(myresult[0][1])
+                app.id = str(myresult[0][0])
                 self.openWindow()
             else:
                 msgBox1 = QMessageBox()
@@ -130,11 +131,10 @@ if hasattr(Qt, 'AA_EnableHighDpiScaling'):
 if hasattr(Qt, 'AA_UseHighDpiPixmaps'):
     QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
 
-def main():
-    app = QApplication(sys.argv)
-    mainWindow = Login()
-    mainWindow.show()
-    app.exec_()
 
-if __name__ == '__main__':
-    main()
+app = QApplication(sys.argv)
+mainWindow = Login()
+mainWindow.show()
+app.exec_()
+
+

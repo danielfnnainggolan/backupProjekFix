@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import QWidget, QLineEdit, QSizePolicy, QTableWidgetItem, Q
 from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from datetime import datetime
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal
 from pytz import timezone
 import connection, os
 
@@ -10,7 +10,7 @@ import connection, os
 
 
 class LokasiFunction(QWidget):
-    
+    lokasi_deleted = pyqtSignal(int)
     def __init__(self):
         super(LokasiFunction, self).__init__()
         uic.loadUi("ui/lokasi.ui", self)
@@ -86,6 +86,7 @@ class LokasiFunction(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.loadData()
+            self.merek_deleted.emit(42)
 
     def singleClick(self):  # enable edit button get item
         self.editButton.setEnabled(True)

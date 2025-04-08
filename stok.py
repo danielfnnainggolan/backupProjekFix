@@ -2,21 +2,35 @@ from PyQt5.QtWidgets import QApplication, QTableWidgetItem, QWidget, QMessageBox
 from PyQt5.QtGui import QIcon,QStandardItemModel, QStandardItem
 from PyQt5 import uic
 from datetime import datetime
-from PyQt5.QtCore import Qt, QEvent
-import connection, os, laporanstok
+from PyQt5.QtCore import Qt, QEvent, pyqtSignal
+import connection, os
+from secret import MyApp
+from pytz import timezone
+from WorkerOpname import WorkerThread, WorkerSQL
 
 
 
 
 class StokFunction(QWidget):
+    stock_change = pyqtSignal(int)
+    
     def __init__(self):
         super(StokFunction, self).__init__()
         uic.loadUi("ui/stok.ui", self)
+        self.total_page = None
+        self.total_query = None
+        self.workerSearch = None
+        self.worker = None
+        self.workerSQL = None
+        self.current_page = 1
+        self.limit_count = 25
+        self.loadSQLWorker()
+
         self.stokTable.setColumnHidden(0, True)
         self.stokTable.setColumnHidden(1, True)
         self.stokTable.setColumnHidden(2, True)
         self.stokTable.setColumnHidden(3, True)
-        self.loadData()
+        
         self.editButton.setEnabled(False)
         self.deleteButton.setEnabled(False)
 
@@ -28,8 +42,89 @@ class StokFunction(QWidget):
         self.stokTable.itemSelectionChanged.connect(self.singleClick)
         self.searchField.textChanged.connect(self.search)
         self.searchField.textEdited.connect(self.detect_edit)
-       
+        self.loadDataWorker()
         # self.searchField.textChanged.connect(self.search)
+
+        #pagination button initialize start
+        self.buttons = [self.button1, self.button2, self.button3, self.button4]
+        self.start.clicked.connect(self.pageStart)
+        self.next.clicked.connect(self.pageNext)
+        self.previous.clicked.connect(self.pagePrev)
+        self.end.clicked.connect(self.pageEnd)
+        for i, button in enumerate(self.buttons):
+            button.clicked.connect(lambda _, b=button: self.pageClicked(int(b.text()), self.limit_count))
+            if int(button.text()) == self.current_page:
+                button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+
+        #pagination button initialize end
+
+
+    #Worker Function Start
+
+    def loadDataWorker(self):
+        if self.worker is not None:
+            if self.worker.isRunning():
+                self.worker.stop()
+
+        self.worker = WorkerThread(0,25)
+        self.worker.result.connect(self.handle_result)
+        self.worker.finished.connect(lambda :self.cleanup_worker(self.worker))
+        self.worker.start()
+    
+    def handle_result(self, result):
+        self.populateData(result)
+
+    def loadSQLWorker(self):
+        if self.workerSQL is not None:
+            if self.workerSQL.isRunning():
+                self.workerSQL.stop()
+
+        self.workerSQL = WorkerSQL()
+        self.workerSQL.data_emitted.connect(self.handle_sql_result)
+        self.workerSQL.finished.connect(lambda : self.cleanup_worker(self.workerSQL))
+        self.workerSQL.start()
+
+    def handle_sql_result(self, total_query, total_page):
+        self.total_query = total_query
+        self.total_page = total_page
+        self.jumlah_halaman.setText("Halaman %s dari %s halaman" %(self.current_page, total_page))
+
+    def cleanup_worker(self, worker_name):
+        if worker_name == self.worker:
+            self.worker = None
+        elif worker_name == self.workerSQL:
+            self.workerSQL = None
+        elif worker_name == self.workerSearch:
+            self.workerSearch = None
+        elif worker_name == self.workerExport:
+            self.workerExport == None
+
+    #Worker Function END
+
+
     def populateData(self, value):
         row = 0
         self.stokTable.setRowCount(len(value))
@@ -46,15 +141,8 @@ class StokFunction(QWidget):
             self.stokTable.setItem(row, 9, QTableWidgetItem(str(stok[9])))
             row += 1
 
-    def loadData(self):
-        mydb = connection.Connect()
-        mycursor = mydb.cursor()
-        mycursor.execute("select id_stok, id_katalog, id_lokasi, id_satuan, kodebarang, nama_barang, nama_merek,jumlah, keterangan,lokasi FROM daftar_stok")
+
         
-        self.myresult = mycursor.fetchall()
-        mycursor.close()
-        mydb.close()
-        self.populateData(self.myresult)
        
 
     def detect_edit(self):
@@ -104,6 +192,7 @@ class StokFunction(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.loadData()
+            self.stock_change.emit(42)
 
     def singleClick(self):  # enable edit button get item
         self.editButton.setEnabled(True)
@@ -137,6 +226,302 @@ class StokFunction(QWidget):
         
         self.stokTable.clearContents()
         self.populateData(myresult)
+
+    def pageClicked(self, page_number, limit):
+        self.current_page = page_number
+        page_number-=1
+        self.worker = WorkerThread(page_number, limit)
+        self.worker.start()
+        self.worker.result.connect(self.handle_result)
+        self.jumlah_halaman.setText("Halaman %s dari %s halaman" %(self.current_page, self.total_page))
+        for i, button in enumerate(self.buttons):
+            if int(button.text()) == self.current_page:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+            else:
+                button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+
+    def pageStart(self):
+        self.loadSQLWorker()
+        self.current_page = 1
+        self.worker = WorkerThread(0, 25)
+        self.worker.start()
+        self.worker.result.connect(self.handle_result)
+        for i, button in enumerate(self.buttons, start=1):
+            button.setText(str(i))
+            if int(button.text()) == self.current_page:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+            else:
+                button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+
+    
+
+    def pageNext(self):
+        
+        limit = self.total_page
+        if int(self.button4.text()) < limit:
+            start_page = int(self.button1.text())
+            for i, button in enumerate(self.buttons, start=start_page):
+                button.setText(str(i+1))
+                if int(button.text()) == self.current_page:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+                else:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+
+    def pagePrev(self):
+        limit = 1
+        if int(self.button1.text()) > limit:
+            start_page = int(self.button4.text())-4 #pls help, i dunno what to do anymore
+            for i, button in enumerate(self.buttons, start=start_page):
+                button.setText(str(i)) #WHY THE HELL I NEED TO DO DIFFERENTLY FOR THIS
+                if int(button.text()) == self.current_page:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+                else:
+                    button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+
+
+    def pageEnd(self):
+        self.loadSQLWorker()
+        self.current_page = self.total_page
+
+        self.worker = WorkerThread(self.total_page-1, 25) #page number,limit
+        self.worker.start()
+        self.worker.result.connect(self.handle_result)
+        for i, button in enumerate(self.buttons, start=self.total_page-3):
+            button.setText(str(i))
+            if int(button.text()) == self.current_page:
+                button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#ACACAC;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
+            else:
+                button.setStyleSheet("""
+                        QPushButton { 
+                            color:white; 
+                            background-color:#4E4E4E;
+                            border:2px solid;
+                            padding: 0 8px;
+                            border-right:0px;
+							border-left:0px;
+                            }
+                        QPushButton:disabled { 
+                            color: rgba(0,0, 0, 100);
+                            }
+                        
+                        QPushButton:hover:!pressed { 
+                            background-color: #262626;
+                            border-style:inset;
+                            }
+                        QPushButton:hover {
+                            background-color:#171717;
+                            }
+                        QPushButton:hover {
+                            background-color:rgb(61, 61, 61);
+                            }
+                        """)
         
        
       
@@ -245,17 +630,18 @@ class Add(QWidget):
         mydb = connection.Connect()
         mycursor = mydb.cursor()
         error = connection.Error()
+        app = MyApp.instance()
+        user_id = app.id
 
         try:
-            
-            query = "INSERT INTO stok (id_katalog, status, keterangan, id_lokasi) VALUES (%s, %s, %s, %s)"
-            mycursor.execute(query, (push[0], push[1], push[2], push[3]))    
+            query = "INSERT INTO stok (id_katalog, status, keterangan, id_lokasi, created_At, created_By) VALUES (%s, %s, %s, %s, %s, %s)"
+            mycursor.execute(query, (push[0], push[1], push[2], push[3], datetime.now(timezone('Asia/Jakarta')), user_id))    
             mydb.commit()
             mycursor.close()
             mydb.close()
         except error as err: 
             msgBox1 = QMessageBox()
-            msgBox1.setText("Ada data yang kosong")
+            msgBox1.setText("Ada data yang kosong{}".format(err))
             msgBox1.setIcon(QMessageBox.Warning)
             msgBox1.setStandardButtons(QMessageBox.Ok)
             msgBox1.setWindowTitle("Data Kosong")
@@ -270,6 +656,7 @@ class Add(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.parent.loadData()
+            self.parent.stock_change.emit(42)
             self.close()
 
         
@@ -409,17 +796,18 @@ class Remove(QWidget):
         mydb = connection.Connect()
         mycursor = mydb.cursor()
         error = connection.Error()
-
+        app= MyApp.instance()
+        user_id = app.id
         try:
             
-            query = "INSERT INTO stok (id_katalog, status, keterangan, id_lokasi) VALUES (%s, %s, %s, %s)"
-            mycursor.execute(query, (push[0], push[1], push[2], push[3]))    
+            query = "INSERT INTO stok (id_katalog, status, keterangan, id_lokasi, created_At, created_By) VALUES (%s, %s, %s, %s, %s, %s)"
+            mycursor.execute(query, (push[0], push[1], push[2], push[3], datetime.now(timezone('Asia/Jakarta')), user_id))    
             mydb.commit()
             mycursor.close()
             mydb.close()
         except error as err: 
             msgBox1 = QMessageBox()
-            msgBox1.setText("Ada data yang kosong")
+            msgBox1.setText("Ada data yang kosong. Error : {}".format(err))
             msgBox1.setIcon(QMessageBox.Warning)
             msgBox1.setStandardButtons(QMessageBox.Ok)
             msgBox1.setWindowTitle("Data Kosong")
@@ -434,7 +822,7 @@ class Remove(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.parent.loadData()
-
+            self.parent.stock_change.emit(42)
             self.close()
 
 class Edit(QWidget):
@@ -618,6 +1006,7 @@ class Edit(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.parent.loadData()
+            self.parent.stock_change.emit(42)
             self.close()
 
     

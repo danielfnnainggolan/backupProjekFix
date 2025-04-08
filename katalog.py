@@ -1,11 +1,11 @@
-from PyQt5.QtWidgets import QWidget,  QTableWidgetItem, QMainWindow, QMessageBox,QCompleter, QHeaderView, QFileDialog
+from PyQt5.QtWidgets import QWidget,  QMainWindow, QMessageBox,QCompleter, QHeaderView, QFileDialog
 from PyQt5.QtGui import QIcon, QStandardItemModel, QStandardItem
 from PyQt5 import uic
 from datetime import datetime
 from PyQt5.QtCore import Qt, QEvent, QTimer
 import connection, os, dashboard
 from Worker import WorkerThread,WorkerSQL, WorkerSearch, WorkerExport
-
+from secret import MyApp
 from pytz import timezone
 
 
@@ -18,6 +18,8 @@ class KatalogFunction(QWidget):
         self.workerSearch = None
         self.worker = None
         self.workerSQL = None
+        self.current_page = 1
+        self.limit_count = 25
         self.loadSQLWorker()
         
         self.loadModel = QStandardItemModel()
@@ -38,8 +40,7 @@ class KatalogFunction(QWidget):
         self.katalogTable.clicked.connect(self.singleClick)
         # self.katalogTable.itemDoubleClicked.connect(self.doubleclick)
 
-        self.current_page = 1
-        self.limit_count = 25
+        
         self.loadDataWorker()
         
         self.search_timer = QTimer(self)
@@ -152,6 +153,8 @@ class KatalogFunction(QWidget):
             self.workerSQL = None
         elif worker_name == self.workerSearch:
             self.workerSearch = None
+        elif worker_name == self.workerExport:
+            self.workerExport == None
 
     def handle_result(self, result):
         self.loadData(result)
@@ -229,8 +232,9 @@ class KatalogFunction(QWidget):
     
 
     def pageStart(self):
+        self.loadSQLWorker()
         self.current_page = 1
-        self.worker = WorkerThread(0, 0)
+        self.worker = WorkerThread(0, 25)
         self.worker.start()
         self.worker.result.connect(self.handle_result)
         for i, button in enumerate(self.buttons, start=1):
@@ -405,6 +409,7 @@ class KatalogFunction(QWidget):
 
 
     def pageEnd(self):
+        self.loadSQLWorker()
         self.current_page = self.total_page
 
         self.worker = WorkerThread(self.total_page-1, 25) #page number,limit
@@ -514,7 +519,7 @@ class KatalogFunction(QWidget):
         self.exportButton.setEnabled(False)
         
     def loadData(self, myresult):
-        
+
         row = 0
         self.loadModel.setRowCount(len(myresult))
         for katalog in myresult:
@@ -596,6 +601,7 @@ class KatalogFunction(QWidget):
             ret1 = msgBox1.exec()
             self.loadSQLWorker()
             self.pageStart()
+            self.loadDataWorker()
         
 
 
@@ -819,7 +825,6 @@ class Edit(QWidget):  ##Edit Katalog
             msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
-            self.parent.loadSQLWorker()
             self.parent.pageStart()
             self.parent.editButton.setEnabled(False)
             self.parent.editButton.setEnabled(False)
@@ -844,8 +849,8 @@ class Export(QWidget):  ##Export Function
         self.workerExport.start()
         
 
-    def cleanup_worker(self):
-        self.workerExport = None
+    
+        
 
     def keyPressEvent(self, event):
         key = event.key()
@@ -997,9 +1002,11 @@ class Add(QWidget):  ##Add Katalog
         mydb = connection.Connect()
         error = connection.Error()
         mycursor = mydb.cursor()
+        app = MyApp.instance()
+        user_id = app.id
         try:
-            query = "INSERT INTO katalog (kodebarang, nama_barang, id_merek, spesifikasi, id_satuan_ukur, id_satuan_jumlah, created_At) VALUES (%s, %s , %s , %s, %s, %s, %s)"
-            mycursor.execute(query, (push[0],push[1],push[2],push[3],push[4], push[5], datetime.now(timezone('Asia/Jakarta'))))    
+            query = "INSERT INTO katalog (kodebarang, nama_barang, id_merek, spesifikasi, id_satuan_ukur, id_satuan_jumlah, created_At, created_By) VALUES (%s, %s , %s , %s, %s, %s, %s, %s)"
+            mycursor.execute(query, (push[0],push[1],push[2],push[3],push[4], push[5], datetime.now(timezone('Asia/Jakarta')), user_id ))    
             mydb.commit()
             mycursor.close()
             mydb.close()
@@ -1007,7 +1014,7 @@ class Add(QWidget):  ##Add Katalog
         except error as err:
             print("Database Update Failed !: {}".format(err))
             msgBox1 = QMessageBox()
-            msgBox1.setText("Ada data yang kosong")
+            msgBox1.setText("Ada data yang kosong Error : {}".format(err))
             msgBox1.setIcon(QMessageBox.Warning)
             msgBox1.setStandardButtons(QMessageBox.Ok)
             msgBox1.setWindowTitle("Data Kosong")
@@ -1021,9 +1028,11 @@ class Add(QWidget):  ##Add Katalog
             msgBox1.setWindowIcon(QIcon(os.path.join("data/ui/", "logo.png")))
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
-        
         self.parent.loadSQLWorker()
         self.parent.pageStart()
+        
+        
+        
         self.close()
 
     def keyPressEvent(self, event):

@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import QWidget, QLineEdit, QSizePolicy, QTableWidgetItem, Q
 from PyQt5.QtGui import QIcon
 from PyQt5 import uic
 from datetime import datetime
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal
 from pytz import timezone
 import connection, os
 
@@ -10,6 +10,7 @@ import connection, os
 
 
 class SatuanBarangFunction(QWidget):
+    satuanBarang_deleted = pyqtSignal(int)
     def __init__(self):
         super(SatuanBarangFunction, self).__init__()
         uic.loadUi("ui/satuanbarang.ui", self)
@@ -86,6 +87,7 @@ class SatuanBarangFunction(QWidget):
             msgBox1.setWindowTitle("Pemberitahuan")
             ret1 = msgBox1.exec()
             self.loadData()
+            self.satuanBarang_deleted.emit(42)
 
     def singleClick(self):  # enable edit button get item
         self.editButton.setEnabled(True)

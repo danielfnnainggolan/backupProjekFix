@@ -1,6 +1,7 @@
 from PyQt5.QtCore import QObject, pyqtSignal, QThread
 from styleframe import StyleFrame, Styler, utils
 import connection,os,math
+
 class WorkerThread(QThread):
     result = pyqtSignal(list)
 
@@ -13,8 +14,8 @@ class WorkerThread(QThread):
         offset = self.page_number * self.limit
         mydb = connection.Connect()
         mycursor = mydb.cursor()
-        query = "SELECT  id_katalog, id_merek, id_satuan_ukur , id_satuan_jumlah, kodebarang, nama_barang,  nama_merek, spesifikasi, satuan_jumlah FROM daftar_katalog LIMIT 25 OFFSET %s;"
-        mycursor.execute(query, (offset,))
+        query = "SELECT  id_katalog, id_merek, id_satuan_ukur , id_satuan_jumlah, kodebarang, nama_barang,  nama_merek, spesifikasi, satuan_jumlah FROM daftar_katalog LIMIT %s OFFSET %s;"
+        mycursor.execute(query, (self.limit,offset,))
         myresult = mycursor.fetchall()
         self.result.emit(myresult)
 

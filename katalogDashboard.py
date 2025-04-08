@@ -74,6 +74,9 @@ class KatalogDashboard(QMainWindow):
         self.add_widget(7, self.exit1)
 
         self.merek_page.merek_deleted.connect(self.test)
+        self.lokasiBarang.lokasi_deleted.connect(self.test)
+        self.satuanBarang.satuanBarang_deleted.connect(self.test)
+        self.satuanJumlah.satuanJumlah_deleted.connect(self.test)
         
     def add_widget(self, group, widget):
         """Add widget to a specific group for hover effects."""
@@ -115,7 +118,7 @@ class KatalogDashboard(QMainWindow):
 
     @pyqtSlot(int) #INI BUAT SINKRON DATA
     def test(self, value):
-        self.katalog_page.loadDataWorker()
+        self.katalog_page.loadDataWorker
 
     def home(self):
         self.hide()

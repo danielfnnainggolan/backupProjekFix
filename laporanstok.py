@@ -10,6 +10,7 @@ import connection, os, resources
 
 
 class LaporanStokFunction(QMainWindow):
+     
     def __init__(self):
         super(LaporanStokFunction, self).__init__()
         uic.loadUi("ui/laporanstok.ui", self)
